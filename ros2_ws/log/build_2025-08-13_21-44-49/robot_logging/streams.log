@@ -1,0 +1,20 @@
+[1.757s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/src/robot_logging': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/build/robot_logging/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_logging build --build-base /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/build/robot_logging/build install --record /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/build/robot_logging/install.log --single-version-externally-managed install_data
+[2.155s] running egg_info
+[2.186s] writing ../../build/robot_logging/robot_logging.egg-info/PKG-INFO
+[2.187s] writing dependency_links to ../../build/robot_logging/robot_logging.egg-info/dependency_links.txt
+[2.187s] writing requirements to ../../build/robot_logging/robot_logging.egg-info/requires.txt
+[2.187s] writing top-level names to ../../build/robot_logging/robot_logging.egg-info/top_level.txt
+[2.250s] reading manifest file '../../build/robot_logging/robot_logging.egg-info/SOURCES.txt'
+[2.251s] writing manifest file '../../build/robot_logging/robot_logging.egg-info/SOURCES.txt'
+[2.252s] running build
+[2.252s] running build_py
+[2.252s] running install
+[2.261s] running install_lib
+[2.292s] running install_data
+[2.293s] copying launch/sim_drive.launch.py -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/share/robot_logging/launch
+[2.293s] running install_egg_info
+[2.326s] removing '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/lib/python3.12/site-packages/robot_logging-0.0.0-py3.12.egg-info' (and everything under it)
+[2.326s] Copying ../../build/robot_logging/robot_logging.egg-info to /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/lib/python3.12/site-packages/robot_logging-0.0.0-py3.12.egg-info
+[2.327s] running install_scripts
+[2.546s] writing list of installed files to '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/build/robot_logging/install.log'
+[2.589s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/src/robot_logging' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/build/robot_logging/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_logging build --build-base /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/build/robot_logging/build install --record /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/build/robot_logging/install.log --single-version-externally-managed install_data

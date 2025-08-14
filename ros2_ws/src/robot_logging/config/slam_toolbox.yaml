@@ -1,0 +1,31 @@
+slam_toolbox:
+  ros__parameters:
+    use_sim_time: true
+    # Frames (match your controller config / URDF)
+    map_frame: map
+    odom_frame: odom
+    base_frame: base_link
+
+    # Node type
+    solver_plugin: solver_plugins::CeresSolver
+    mode: mapping  # (mapping | localization)
+    odom_frame_publish_period: 0.05
+
+    # Scan parameters (LaserScan)
+    scan_topic: /scan  # we'll remap to the long GZ topic in launch
+    transform_publish_period: 0.02
+    resolution: 0.05
+    minimum_travel_distance: 0.1
+    minimum_travel_heading: 0.1
+    max_laser_range: 10.0
+    minimum_time_interval: 0.05
+
+    # Correlation / loop closure (lightweight defaults)
+    use_scan_matching: true
+    use_loop_closing: true
+    do_loop_closing: true
+    loop_search_maximum_distance: 3.0
+
+    # QoS (helps match sensor-data QoS reliably)
+    scan_queue_size: 10
+    tf_buffer_duration: 30.0

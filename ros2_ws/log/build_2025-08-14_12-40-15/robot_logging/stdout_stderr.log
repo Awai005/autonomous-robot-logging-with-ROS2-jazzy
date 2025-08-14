@@ -1,0 +1,17 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running egg_info
+writing robot_logging.egg-info/PKG-INFO
+writing dependency_links to robot_logging.egg-info/dependency_links.txt
+writing requirements to robot_logging.egg-info/requires.txt
+writing top-level names to robot_logging.egg-info/top_level.txt
+reading manifest file 'robot_logging.egg-info/SOURCES.txt'
+writing manifest file 'robot_logging.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/lib/python3.12/site-packages/robot-logging.egg-link (link to .)
+
+Installed /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/build/robot_logging
+running symlink_data
+symbolically linking /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/build/robot_logging/launch/slam.launch.py -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/share/robot_logging/launch
+symbolically linking /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/build/robot_logging/config/slam_toolbox.yaml -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/share/robot_logging/config

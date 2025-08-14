@@ -1,0 +1,1 @@
+/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/build/robot_logging/launch/view_model.launch.py

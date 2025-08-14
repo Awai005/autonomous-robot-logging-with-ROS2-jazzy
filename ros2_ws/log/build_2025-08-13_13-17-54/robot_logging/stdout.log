@@ -1,0 +1,28 @@
+running develop
+Removing /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/lib/python3.12/site-packages/robot-logging.egg-link (link to .)
+running egg_info
+writing ../../build/robot_logging/robot_logging.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_logging/robot_logging.egg-info/dependency_links.txt
+writing requirements to ../../build/robot_logging/robot_logging.egg-info/requires.txt
+writing top-level names to ../../build/robot_logging/robot_logging.egg-info/top_level.txt
+reading manifest file '../../build/robot_logging/robot_logging.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_logging/robot_logging.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/lib/python3.12/site-packages/robot_logging
+copying /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/build/robot_logging/build/lib/robot_logging/__init__.py -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/lib/python3.12/site-packages/robot_logging
+byte-compiling /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/lib/python3.12/site-packages/robot_logging/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/robot_logging -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/share/ament_index/resource_index/packages
+copying package.xml -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/share/robot_logging
+copying launch/sim_bringup.launch.py -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/share/robot_logging/launch
+creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/share/robot_logging/urdf
+copying urdf/skid_steer.urdf.xacro -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/share/robot_logging/urdf
+creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/share/robot_logging/config
+copying config/controllers.yaml -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/share/robot_logging/config
+running install_egg_info
+Copying ../../build/robot_logging/robot_logging.egg-info to /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/install/robot_logging/lib/python3.12/site-packages/robot_logging-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/build/robot_logging/install.log'
