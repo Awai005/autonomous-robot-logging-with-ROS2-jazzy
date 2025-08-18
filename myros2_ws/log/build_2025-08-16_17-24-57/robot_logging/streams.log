@@ -1,0 +1,42 @@
+[0.022s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/robot_logging -DCMAKE_INSTALL_PREFIX=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging
+[1.017s] -- The C compiler identification is GNU 13.3.0
+[1.411s] -- The CXX compiler identification is GNU 13.3.0
+[1.595s] -- Detecting C compiler ABI info
+[1.829s] -- Detecting C compiler ABI info - done
+[1.861s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.865s] -- Detecting C compile features
+[1.867s] -- Detecting C compile features - done
+[1.895s] -- Detecting CXX compiler ABI info
+[2.059s] -- Detecting CXX compiler ABI info - done
+[2.093s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.094s] -- Detecting CXX compile features
+[2.096s] -- Detecting CXX compile features - done
+[2.214s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.498s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.802s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.996s] -- Added test 'lint_cmake' to check CMake code style
+[3.001s] -- Added test 'xmllint' to check XML markup files
+[3.008s] -- Configuring done (2.7s)
+[3.019s] -- Generating done (0.0s)
+[3.023s] -- Build files have been written to: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging
+[3.032s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/robot_logging -DCMAKE_INSTALL_PREFIX=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging
+[3.035s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging -- -j12 -l12
+[3.118s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging -- -j12 -l12
+[3.135s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging
+[3.146s] -- Install configuration: ""
+[3.146s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/ament_index/resource_index/package_run_dependencies/robot_logging
+[3.147s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/ament_index/resource_index/parent_prefix_path/robot_logging
+[3.147s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/environment/ament_prefix_path.sh
+[3.148s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/environment/ament_prefix_path.dsv
+[3.148s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/environment/path.sh
+[3.148s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/environment/path.dsv
+[3.149s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/local_setup.bash
+[3.149s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/local_setup.sh
+[3.150s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/local_setup.zsh
+[3.150s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/local_setup.dsv
+[3.150s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/package.dsv
+[3.151s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/ament_index/resource_index/packages/robot_logging
+[3.151s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/cmake/robot_loggingConfig.cmake
+[3.152s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/cmake/robot_loggingConfig-version.cmake
+[3.152s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/package.xml
+[3.153s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging

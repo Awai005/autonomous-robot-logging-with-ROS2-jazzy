@@ -19,6 +19,13 @@ def generate_launch_description():
         Command([FindExecutable(name='xacro'), ' ', urdf_xacro]),
         value_type=str
     )
+    lidar_bridge = Node(
+    package='ros_gz_bridge',
+    executable='parameter_bridge',
+    arguments=['/lidar_points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked'],
+    output='screen'
+    )
+    
     clock_bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
@@ -72,5 +79,5 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        set_plugin_path, gz, rsp, spawn, jsb_spawner, diff_spawner, clock_bridge])
+        set_plugin_path, gz, rsp, spawn, jsb_spawner, diff_spawner, clock_bridge, lidar_bridge])
 

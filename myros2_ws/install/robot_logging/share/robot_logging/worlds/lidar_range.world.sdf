@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <world name="lidar_range_showcase">
+
+    <!-- Enable GPU sensors -->
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <!-- Lighting & ground -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- === Targets at known ranges ===
+         Robot assumed at (0,0,0) yaw=0, lidar facing +X.
+         2 m pylons at center & ±45°, plus a 4 m wide wall. -->
+
+    <!-- 2 m center pylon -->
+    <model name="pylon_2m_center">
+      <static>true</static>
+      <pose>2 0 0 0 0 0</pose> <!-- x y z yaw pitch roll -->
+      <link name="link">
+        <pose>0 0 0.5 0 0 0</pose>
+        <visual name="v">
+          <geometry><box><size>0.2 0.2 1.0</size></box></geometry>
+          <material><ambient>0.2 0.8 0.2 1</ambient></material>
+          <laser_retro>100</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><box><size>0.2 0.2 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- 2 m left pylon at +45° (x=1.414, y=+1.414) -->
+    <model name="pylon_2m_left45">
+      <static>true</static>
+      <pose>1.41421356 1.41421356 0 0 0 0</pose>
+      <link name="link">
+        <pose>0 0 0.5 0 0 0</pose>
+        <visual name="v">
+          <geometry><box><size>0.2 0.2 1.0</size></box></geometry>
+          <material><ambient>0.2 0.2 0.8 1</ambient></material>
+          <laser_retro>120</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><box><size>0.2 0.2 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- 2 m right pylon at -45° (x=1.414, y=-1.414) -->
+    <model name="pylon_2m_right45">
+      <static>true</static>
+      <pose>1.41421356 -1.41421356 0 0 0 0</pose>
+      <link name="link">
+        <pose>0 0 0.5 0 0 0</pose>
+        <visual name="v">
+          <geometry><box><size>0.2 0.2 1.0</size></box></geometry>
+          <material><ambient>0.8 0.2 0.2 1</ambient></material>
+          <laser_retro>140</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><box><size>0.2 0.2 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Wide wall at 4 m: continuous band of ~4.0 m returns -->
+    <model name="wall_4m">
+      <static>true</static>
+      <pose>4 0 0 0 0 0</pose>
+      <link name="link">
+        <pose>0 0 0.75 0 0 0</pose>
+        <visual name="v">
+          <geometry><box><size>0.2 6.0 1.5</size></box></geometry>
+          <material><ambient>0.7 0.7 0.7 1</ambient></material>
+          <laser_retro>200</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><box><size>0.2 6.0 1.5</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+  </world>
+</sdf>

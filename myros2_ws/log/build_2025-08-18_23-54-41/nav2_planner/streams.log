@@ -1,0 +1,106 @@
+[0.022s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/navigation2/nav2_planner -DCMAKE_INSTALL_PREFIX=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner
+[1.631s] -- The C compiler identification is GNU 13.3.0
+[2.087s] -- The CXX compiler identification is GNU 13.3.0
+[2.201s] -- Detecting C compiler ABI info
+[2.496s] -- Detecting C compiler ABI info - done
+[2.519s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.520s] -- Detecting C compile features
+[2.521s] -- Detecting C compile features - done
+[2.537s] -- Detecting CXX compiler ABI info
+[2.712s] -- Detecting CXX compiler ABI info - done
+[2.747s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.748s] -- Detecting CXX compile features
+[2.750s] -- Detecting CXX compile features - done
+[2.767s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.055s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.971s] -- Found nav2_common: 1.3.7 (/opt/ros/jazzy/share/nav2_common/cmake)
+[4.048s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.418s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.512s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.144s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.186s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.511s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.560s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.598s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.920s] -- Found rclcpp_action: 28.1.10 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[6.088s] -- Found rclcpp_lifecycle: 28.1.10 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[6.212s] -- Found rclcpp_components: 28.1.10 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[6.429s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[6.452s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[6.555s] -- Found nav2_util: 1.3.7 (/opt/ros/jazzy/share/nav2_util/cmake)
+[7.065s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[7.084s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.084s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.272s] -- Found nav2_costmap_2d: 1.3.7 (/opt/ros/jazzy/share/nav2_costmap_2d/cmake)
+[7.630s] -- Found nav2_core: 1.3.7 (/opt/ros/jazzy/share/nav2_core/cmake)
+[7.743s] -- Setting build type to Release as none was specified.
+[7.821s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.828s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[8.361s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.366s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.532s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.534s] -- Found Threads: TRUE  
+[8.599s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.602s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.603s] -- Configured cppcheck include dirs: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/navigation2/nav2_planner/include
+[8.603s] -- Configured cppcheck exclude dirs and/or files: 
+[8.606s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.606s] -- Configured cpplint exclude dirs and/or files: 
+[8.615s] -- Added test 'lint_cmake' to check CMake code style
+[8.635s] -- Added test 'uncrustify' to check C / C++ code style
+[8.636s] -- Configured uncrustify additional arguments: 
+[8.644s] -- Added test 'xmllint' to check XML markup files
+[8.724s] -- Configuring done (8.7s)
+[9.317s] -- Generating done (0.5s)
+[9.337s] -- Build files have been written to: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_planner
+[9.358s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/navigation2/nav2_planner -DCMAKE_INSTALL_PREFIX=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner
+[9.360s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_planner -- -j12 -l12
+[9.462s] [ 20%] [32mBuilding CXX object CMakeFiles/planner_server_core.dir/src/planner_server.cpp.o[0m
+[9.462s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.468s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[12.826s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[12.995s] [ 40%] Built target gtest_main
+[36.215s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[36.402s] [ 50%] Built target gtest
+[67.371s] [ 60%] [32m[1mLinking CXX shared library libplanner_server_core.so[0m
+[69.014s] [ 60%] Built target planner_server_core
+[69.071s] [ 70%] [32mBuilding CXX object test/CMakeFiles/test_dynamic_parameters.dir/test_dynamic_parameters.cpp.o[0m
+[69.071s] [ 80%] [32mBuilding CXX object CMakeFiles/planner_server.dir/src/main.cpp.o[0m
+[78.288s] [ 90%] [32m[1mLinking CXX executable planner_server[0m
+[78.722s] [ 90%] Built target planner_server
+[79.878s] [100%] [32m[1mLinking CXX executable test_dynamic_parameters[0m
+[80.521s] [100%] Built target test_dynamic_parameters
+[80.548s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_planner -- -j12 -l12
+[80.550s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_planner
+[80.564s] -- Install configuration: "Release"
+[80.564s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/lib/libplanner_server_core.so
+[80.567s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/lib/libplanner_server_core.so" to ""
+[80.567s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/lib/nav2_planner/planner_server
+[80.567s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/lib/nav2_planner/planner_server" to ""
+[80.567s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/include/
+[80.568s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/include//nav2_planner
+[80.568s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/include//nav2_planner/planner_server.hpp
+[80.568s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/environment/library_path.sh
+[80.568s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/environment/library_path.dsv
+[80.569s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/ament_index/resource_index/package_run_dependencies/nav2_planner
+[80.569s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/ament_index/resource_index/parent_prefix_path/nav2_planner
+[80.569s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/environment/ament_prefix_path.sh
+[80.569s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/environment/ament_prefix_path.dsv
+[80.570s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/environment/path.sh
+[80.570s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/environment/path.dsv
+[80.570s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/local_setup.bash
+[80.570s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/local_setup.sh
+[80.571s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/local_setup.zsh
+[80.571s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/local_setup.dsv
+[80.571s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/package.dsv
+[80.571s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/ament_index/resource_index/packages/nav2_planner
+[80.571s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/ament_index/resource_index/rclcpp_components/nav2_planner
+[80.572s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[80.572s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[80.572s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[80.572s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/cmake/nav2_plannerConfig.cmake
+[80.573s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/cmake/nav2_plannerConfig-version.cmake
+[80.573s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_planner/share/nav2_planner/package.xml
+[80.577s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_planner

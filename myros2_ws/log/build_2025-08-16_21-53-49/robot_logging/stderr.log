@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/robot_logging/world":
+  No such file or directory.
+
+[0m

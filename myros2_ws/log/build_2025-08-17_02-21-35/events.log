@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.000839] (robot_logging) JobQueued: {'identifier': 'robot_logging', 'dependencies': OrderedDict()}
+[0.001158] (robot_logging) JobStarted: {'identifier': 'robot_logging'}
+[0.014398] (robot_logging) JobProgress: {'identifier': 'robot_logging', 'progress': 'cmake'}
+[0.015211] (robot_logging) JobProgress: {'identifier': 'robot_logging', 'progress': 'build'}
+[0.016037] (robot_logging) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging', '--', '-j12', '-l12'], 'cwd': '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2457-1-tersoo-System-Product-Name_TIME85292', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tersoo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tersoo', 'OLDPWD': '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1990', 'SYSTEMD_EXEC_PID': '2457', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3373', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tersoo', 'JOURNAL_STREAM': '9:16851', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tersoo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tersoo-System-Product-Name:@/tmp/.ICE-unix/2409,unix/tersoo-System-Product-Name:/tmp/.ICE-unix/2409', 'INVOCATION_ID': 'a887d59339c048878d24deab6d07d825', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cfe3b35f-1496-47c9-aa15-f52e258ec92c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.063873] (robot_logging) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099693] (-) TimerEvent: {}
+[0.199948] (-) TimerEvent: {}
+[0.300263] (-) TimerEvent: {}
+[0.398756] (robot_logging) StdoutLine: {'line': b'-- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)\n'}
+[0.400357] (-) TimerEvent: {}
+[0.443747] (robot_logging) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[0.483173] (robot_logging) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.500551] (-) TimerEvent: {}
+[0.605107] (-) TimerEvent: {}
+[0.651606] (robot_logging) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.693919] (robot_logging) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.705242] (-) TimerEvent: {}
+[0.728762] (robot_logging) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.755131] (robot_logging) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.805407] (-) TimerEvent: {}
+[0.906323] (-) TimerEvent: {}
+[0.954227] (robot_logging) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.971528] (robot_logging) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.006453] (-) TimerEvent: {}
+[1.031229] (robot_logging) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.106631] (-) TimerEvent: {}
+[1.207101] (-) TimerEvent: {}
+[1.304050] (robot_logging) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.307239] (-) TimerEvent: {}
+[1.317715] (robot_logging) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.358569] (robot_logging) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.362763] (robot_logging) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.377606] (robot_logging) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.393644] (robot_logging) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.407371] (-) TimerEvent: {}
+[1.507773] (-) TimerEvent: {}
+[1.536837] (robot_logging) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.607946] (-) TimerEvent: {}
+[1.660264] (robot_logging) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.708087] (-) TimerEvent: {}
+[1.782141] (robot_logging) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.782539] (robot_logging) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.782859] (robot_logging) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.783523] (robot_logging) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.783825] (robot_logging) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.784339] (robot_logging) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.784888] (robot_logging) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.787331] (robot_logging) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.787652] (robot_logging) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.788569] (robot_logging) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.789526] (robot_logging) StdoutLine: {'line': b'-- Configuring done (1.7s)\n'}
+[1.808395] (-) TimerEvent: {}
+[1.820227] (robot_logging) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.825441] (robot_logging) StdoutLine: {'line': b'-- Build files have been written to: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging\n'}
+[1.908565] (-) TimerEvent: {}
+[1.909800] (robot_logging) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/scan_frame_fix.dir/src/scan_frame_fix.cpp.o\x1b[0m\n'}
+[2.008773] (-) TimerEvent: {}
+[2.109574] (-) TimerEvent: {}
+[2.210160] (-) TimerEvent: {}
+[2.310749] (-) TimerEvent: {}
+[2.411420] (-) TimerEvent: {}
+[2.511962] (-) TimerEvent: {}
+[2.612507] (-) TimerEvent: {}
+[2.713258] (-) TimerEvent: {}
+[2.813782] (-) TimerEvent: {}
+[2.914303] (-) TimerEvent: {}
+[3.014816] (-) TimerEvent: {}
+[3.115390] (-) TimerEvent: {}
+[3.215964] (-) TimerEvent: {}
+[3.316566] (-) TimerEvent: {}
+[3.417160] (-) TimerEvent: {}
+[3.517650] (-) TimerEvent: {}
+[3.618136] (-) TimerEvent: {}
+[3.718607] (-) TimerEvent: {}
+[3.819114] (-) TimerEvent: {}
+[3.919592] (-) TimerEvent: {}
+[4.020117] (-) TimerEvent: {}
+[4.121310] (-) TimerEvent: {}
+[4.221775] (-) TimerEvent: {}
+[4.322212] (-) TimerEvent: {}
+[4.422663] (-) TimerEvent: {}
+[4.523132] (-) TimerEvent: {}
+[4.623568] (-) TimerEvent: {}
+[4.724025] (-) TimerEvent: {}
+[4.824473] (-) TimerEvent: {}
+[4.925067] (-) TimerEvent: {}
+[5.025550] (-) TimerEvent: {}
+[5.126031] (-) TimerEvent: {}
+[5.226489] (-) TimerEvent: {}
+[5.326946] (-) TimerEvent: {}
+[5.427379] (-) TimerEvent: {}
+[5.527838] (-) TimerEvent: {}
+[5.628270] (-) TimerEvent: {}
+[5.728729] (-) TimerEvent: {}
+[5.829163] (-) TimerEvent: {}
+[5.929590] (-) TimerEvent: {}
+[6.030151] (-) TimerEvent: {}
+[6.130728] (-) TimerEvent: {}
+[6.231265] (-) TimerEvent: {}
+[6.331721] (-) TimerEvent: {}
+[6.432195] (-) TimerEvent: {}
+[6.532622] (-) TimerEvent: {}
+[6.633075] (-) TimerEvent: {}
+[6.733516] (-) TimerEvent: {}
+[6.833961] (-) TimerEvent: {}
+[6.934508] (-) TimerEvent: {}
+[7.035138] (-) TimerEvent: {}
+[7.135592] (-) TimerEvent: {}
+[7.236073] (-) TimerEvent: {}
+[7.336472] (-) TimerEvent: {}
+[7.436911] (-) TimerEvent: {}
+[7.537318] (-) TimerEvent: {}
+[7.637747] (-) TimerEvent: {}
+[7.738145] (-) TimerEvent: {}
+[7.838555] (-) TimerEvent: {}
+[7.939133] (-) TimerEvent: {}
+[8.039739] (-) TimerEvent: {}
+[8.140211] (-) TimerEvent: {}
+[8.240651] (-) TimerEvent: {}
+[8.341082] (-) TimerEvent: {}
+[8.441502] (-) TimerEvent: {}
+[8.541973] (-) TimerEvent: {}
+[8.642378] (-) TimerEvent: {}
+[8.742823] (-) TimerEvent: {}
+[8.843251] (-) TimerEvent: {}
+[8.943876] (-) TimerEvent: {}
+[9.044316] (-) TimerEvent: {}
+[9.144773] (-) TimerEvent: {}
+[9.245205] (-) TimerEvent: {}
+[9.345619] (-) TimerEvent: {}
+[9.446067] (-) TimerEvent: {}
+[9.546481] (-) TimerEvent: {}
+[9.646941] (-) TimerEvent: {}
+[9.747341] (-) TimerEvent: {}
+[9.847771] (-) TimerEvent: {}
+[9.948212] (-) TimerEvent: {}
+[10.048665] (-) TimerEvent: {}
+[10.149226] (-) TimerEvent: {}
+[10.249637] (-) TimerEvent: {}
+[10.350061] (-) TimerEvent: {}
+[10.450481] (-) TimerEvent: {}
+[10.550940] (-) TimerEvent: {}
+[10.651381] (-) TimerEvent: {}
+[10.751833] (-) TimerEvent: {}
+[10.852267] (-) TimerEvent: {}
+[10.952741] (-) TimerEvent: {}
+[11.053195] (-) TimerEvent: {}
+[11.153627] (-) TimerEvent: {}
+[11.218334] (robot_logging) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable scan_frame_fix\x1b[0m\n'}
+[11.253751] (-) TimerEvent: {}
+[11.354353] (-) TimerEvent: {}
+[11.454819] (-) TimerEvent: {}
+[11.555252] (-) TimerEvent: {}
+[11.607116] (robot_logging) StdoutLine: {'line': b'[100%] Built target scan_frame_fix\n'}
+[11.624626] (robot_logging) CommandEnded: {'returncode': 0}
+[11.625885] (robot_logging) JobProgress: {'identifier': 'robot_logging', 'progress': 'install'}
+[11.640091] (robot_logging) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging'], 'cwd': '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2457-1-tersoo-System-Product-Name_TIME85292', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tersoo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tersoo', 'OLDPWD': '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1990', 'SYSTEMD_EXEC_PID': '2457', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3373', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tersoo', 'JOURNAL_STREAM': '9:16851', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tersoo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tersoo-System-Product-Name:@/tmp/.ICE-unix/2409,unix/tersoo-System-Product-Name:/tmp/.ICE-unix/2409', 'INVOCATION_ID': 'a887d59339c048878d24deab6d07d825', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cfe3b35f-1496-47c9-aa15-f52e258ec92c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.651227] (robot_logging) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.651872] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes\n'}
+[11.652316] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/rl_wheel.STL\n'}
+[11.652807] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/fl_wheel.STL\n'}
+[11.653257] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/fr_wheel.STL\n'}
+[11.653646] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/base_link.STL\n'}
+[11.654025] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/lidar_link.STL\n'}
+[11.654348] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/rr_wheel.STL\n'}
+[11.654711] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/urdf\n'}
+[11.655056] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/urdf/skid_steer_gazebo.xacro\n'}
+[11.655408] (-) TimerEvent: {}
+[11.655651] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/urdf/skid_steer.urdf.xacro\n'}
+[11.656286] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/urdf/skid_steer_ros2_control.xacro\n'}
+[11.657015] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch\n'}
+[11.658040] (robot_logging) StdoutLine: {'line': b'-- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch/gazebo.launch.py\n'}
+[11.658388] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch/mapping_bringup.launch.py\n'}
+[11.659176] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch/display.launch.py\n'}
+[11.659534] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/config\n'}
+[11.660112] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/config/controllers.yaml\n'}
+[11.661077] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/config/nav2_params.yaml\n'}
+[11.661464] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/config/slam_toolbox.yaml\n'}
+[11.662583] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/worlds\n'}
+[11.663208] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/worlds/lidar_rangeworld.sdf\n'}
+[11.663591] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/worlds/teranova.sdf\n'}
+[11.664236] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/worlds/tera_nova.sdf\n'}
+[11.664793] (robot_logging) StdoutLine: {'line': b'-- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/src\n'}
+[11.665171] (robot_logging) StdoutLine: {'line': b'-- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/src/scan_frame_fix.cpp\n'}
+[11.665665] (robot_logging) StdoutLine: {'line': b'-- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/ament_index/resource_index/package_run_dependencies/robot_logging\n'}
+[11.666442] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/ament_index/resource_index/parent_prefix_path/robot_logging\n'}
+[11.666906] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/environment/ament_prefix_path.sh\n'}
+[11.667277] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/environment/ament_prefix_path.dsv\n'}
+[11.667845] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/environment/path.sh\n'}
+[11.668220] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/environment/path.dsv\n'}
+[11.668580] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/local_setup.bash\n'}
+[11.669113] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/local_setup.sh\n'}
+[11.670489] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/local_setup.zsh\n'}
+[11.671044] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/local_setup.dsv\n'}
+[11.671423] (robot_logging) StdoutLine: {'line': b'-- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/package.dsv\n'}
+[11.672012] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/ament_index/resource_index/packages/robot_logging\n'}
+[11.672361] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/cmake/robot_loggingConfig.cmake\n'}
+[11.672787] (robot_logging) StdoutLine: {'line': b'-- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/cmake/robot_loggingConfig-version.cmake\n'}
+[11.673320] (robot_logging) StdoutLine: {'line': b'-- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/package.xml\n'}
+[11.673996] (robot_logging) CommandEnded: {'returncode': 0}
+[11.709074] (robot_logging) JobEnded: {'identifier': 'robot_logging', 'rc': 0}
+[11.710842] (-) EventReactorShutdown: {}

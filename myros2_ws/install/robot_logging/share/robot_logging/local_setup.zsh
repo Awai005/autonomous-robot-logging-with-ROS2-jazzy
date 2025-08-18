@@ -1,0 +1,1 @@
+/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging/ament_cmake_environment_hooks/local_setup.zsh

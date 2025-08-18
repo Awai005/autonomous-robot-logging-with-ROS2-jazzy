@@ -1,0 +1,136 @@
+amcl:
+  ros__parameters:
+    use_sim_time: true
+    base_frame_id: base_link
+    odom_frame_id: odom
+    global_frame_id: map
+    scan_topic: /scan
+    min_particles: 500
+    max_particles: 2000
+    laser_model_type: likelihood_field
+    set_initial_pose: false
+    tf_broadcast: true
+    odom_alpha1: 0.2
+    odom_alpha2: 0.2
+    odom_alpha3: 0.2
+    odom_alpha4: 0.2
+    update_min_d: 0.05
+    update_min_a: 0.1
+
+map_server:
+  ros__parameters:
+    yaml_filename: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/robot_logging/maps/my_map.yaml  # <-- set to your saved map file
+
+planner_server:
+  ros__parameters:
+    use_sim_time: false
+    planner_plugins: ["GridBased"]
+    GridBased:
+      plugin: "nav2_smac_planner::SmacPlanner2D"  
+      tolerance: 0.5
+      use_astar: false
+      allow_unknown: true
+
+controller_server:
+  ros__parameters:
+    use_sim_time: true
+    controller_plugins: ["FollowPath"]
+    use_stamped_vel: true 
+    FollowPath:
+      plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
+      desired_linear_vel: 0.4
+      max_linear_accel: 0.8
+      lookahead_dist: 0.6
+      min_lookahead_dist: 0.3
+      max_lookahead_dist: 0.9
+      lookahead_time: 1.5
+      rotate_to_heading_angular_vel: 0.6
+      use_rotate_to_heading: true
+      transform_tolerance: 0.2
+
+behavior_server:
+  ros__parameters:
+    use_sim_time: true
+    behavior_plugins: ["backup", "wait", "spin"]
+
+    backup:
+      plugin: "nav2_behaviors::BackUp"
+
+    wait:
+      plugin: "nav2_behaviors::Wait"
+
+    spin:
+      plugin: "nav2_behaviors::Spin"
+
+bt_navigator:
+  ros__parameters:
+    use_sim_time: true
+    default_bt_xml_filename: "package://nav2_bt_navigator/behavior_trees/navigate_w_replanning_and_recovery.xml"
+
+waypoint_follower:
+  ros__parameters:
+    use_sim_time: true
+    plugin_lib_names: ["nav2_waypoint_follower::WaitAtWaypoint"]
+    goal_checker_plugins: ["general_goal_checker"]
+    general_goal_checker:
+      plugin: "nav2_controller::SimpleGoalChecker"
+      xy_goal_tolerance: 0.08
+      yaw_goal_tolerance: 0.08
+
+# Costmaps (obstacles from /scan; simple robot radius)
+local_costmap:
+  ros__parameters:
+    use_sim_time: true
+    global_frame: odom
+    robot_base_frame: base_link
+    rolling_window: true
+    width: 5.0
+    height: 5.0
+    resolution: 0.05
+    robot_radius: 0.18      # ~ base_w/2 + margin (you had base_w=0.30)
+    footprint_padding: 0.01
+    plugins: ["obstacle_layer", "inflation_layer"]
+    obstacle_layer:
+      plugin: "nav2_costmap_2d::ObstacleLayer"
+      observation_sources: scan
+      scan:
+        topic: /scan
+        max_obstacle_height: 1.0
+        clearing: true
+        marking: true
+        data_type: "LaserScan"
+    inflation_layer:
+      plugin: "nav2_costmap_2d::InflationLayer"
+      inflation_radius: 0.6
+
+global_costmap:
+  ros__parameters:
+    use_sim_time: true
+    global_frame: map
+    robot_base_frame: base_link
+    rolling_window: false
+    resolution: 0.05
+    robot_radius: 0.18
+    footprint_padding: 0.01
+    plugins: ["obstacle_layer", "inflation_layer"]
+    obstacle_layer:
+      plugin: "nav2_costmap_2d::ObstacleLayer"
+      observation_sources: scan
+      scan:
+        topic: /scan
+        max_obstacle_height: 1.0
+        clearing: true
+        marking: true
+        data_type: "LaserScan"
+    inflation_layer:
+      plugin: "nav2_costmap_2d::InflationLayer"
+      inflation_radius: 0.6
+
+# Smoother (optional but handy)
+smoother_server:
+  ros__parameters:
+    use_sim_time: true
+    smoother_plugins: ["simple_smoother"]
+    simple_smoother:
+      plugin: "nav2_smoother::SimpleSmoother"
+      tolerance: 1.0e-10

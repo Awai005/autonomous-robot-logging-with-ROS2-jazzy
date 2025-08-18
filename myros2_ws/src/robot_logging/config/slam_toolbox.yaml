@@ -1,0 +1,20 @@
+slam_toolbox:
+  ros__parameters:
+    use_sim_time: true
+
+    # Frames
+    map_frame: map
+    odom_frame: odom
+    base_frame: base_link
+    publish_tf: true
+    transform_publish_period: 0.02
+
+    # Laser input
+    scan_topic: /scan
+
+    # Basic online mapping
+    mode: mapping
+    localization: false
+    resolution: 0.05
+    use_scan_matching: true
+

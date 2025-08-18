@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9a90ef062fa169bf7b69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "nav_2d_msgs__py",
+					"jsonFile" : "directory-nav_2d_msgs__py-d125584a222afbd8fbb4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav_2d_msgs/nav_2d_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "nav_2d_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_nav_2d_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_nav_2d_msgs_egg-391a25fe35c677feab33.json",
+					"name" : "ament_cmake_python_build_nav_2d_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_nav_2d_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_nav_2d_msgs-7228df520248a258e026.json",
+					"name" : "ament_cmake_python_copy_nav_2d_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs-354e9c656848fa117d75.json",
+					"name" : "nav_2d_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__cpp-f9a72e2db5dfcbcfa78b.json",
+					"name" : "nav_2d_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nav_2d_msgs__py::@e0bac88aea3abc49556a",
+					"jsonFile" : "target-nav_2d_msgs__py-71d709e2a13996c945fc.json",
+					"name" : "nav_2d_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_generator_c-80d58508aecd036f751c.json",
+					"name" : "nav_2d_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_generator_py-5906a43f937a1d388a81.json",
+					"name" : "nav_2d_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_generator_type_description-6a59d74ff3449ae5a1af.json",
+					"name" : "nav_2d_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_c-9aa99b910f7f4716f710.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_cpp-8f807c9e7ef5a3eb5ae9.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_fastrtps_c-4312508afe125be9b840.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_fastrtps_cpp-7e43cb362ea382db291d.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_introspection_c-ab7544040beb2582ed15.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_introspection_cpp-c1b41bf9cf50bc3db998.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs_s__rosidl_typesupport_c-72cdde1c47007245e72a.json",
+					"name" : "nav_2d_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs_s__rosidl_typesupport_fastrtps_c-eb3fb891c4889935a5d5.json",
+					"name" : "nav_2d_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs_s__rosidl_typesupport_introspection_c-62e4299d9028fcc891e8.json",
+					"name" : "nav_2d_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs_uninstall-4c17e082628093eee6fb.json",
+					"name" : "nav_2d_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2cc89dd64ddca5e6d223.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav_2d_msgs",
+		"source" : "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

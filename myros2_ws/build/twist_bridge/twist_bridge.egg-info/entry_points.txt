@@ -1,0 +1,2 @@
+[console_scripts]
+twist_to_stamped = twist_bridge.twist_to_stamped:main

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "nav2_msgs__py",
+		"source" : "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_msgs/nav2_msgs__py"
+	}
+}

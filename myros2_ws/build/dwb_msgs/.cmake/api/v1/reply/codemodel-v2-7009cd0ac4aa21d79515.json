@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5986790c3abc8865e19c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "dwb_msgs__py",
+					"jsonFile" : "directory-dwb_msgs__py-9d4c65d71091936a2e14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs/dwb_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dwb_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dwb_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dwb_msgs_egg-0068529cd5a4b91b792b.json",
+					"name" : "ament_cmake_python_build_dwb_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dwb_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dwb_msgs-86e0bc06c5979e314e87.json",
+					"name" : "ament_cmake_python_copy_dwb_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs-35fe32075f5e1053d8b4.json",
+					"name" : "dwb_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__cpp-8099d90843a6c41d56c0.json",
+					"name" : "dwb_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dwb_msgs__py::@0dc0456f80c7128fc3f1",
+					"jsonFile" : "target-dwb_msgs__py-db34459d8b682befb4a7.json",
+					"name" : "dwb_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_generator_c-4fd5a0006921c6425c28.json",
+					"name" : "dwb_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_generator_py-ab73efcad32ea45d883b.json",
+					"name" : "dwb_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_generator_type_description-e40cc37a86debc6c844e.json",
+					"name" : "dwb_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_c-04505b531f6d3c68bf6f.json",
+					"name" : "dwb_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_cpp-c76247882b079681a953.json",
+					"name" : "dwb_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_fastrtps_c-f91805c6563df2fdefa5.json",
+					"name" : "dwb_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_fastrtps_cpp-bbcefeff1c7f8c186f45.json",
+					"name" : "dwb_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_introspection_c-50b26201442ddec1f81d.json",
+					"name" : "dwb_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_introspection_cpp-64c9838bcd634b11e8ab.json",
+					"name" : "dwb_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs_s__rosidl_typesupport_c-5ba458f083fe7cdb90db.json",
+					"name" : "dwb_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs_s__rosidl_typesupport_fastrtps_c-f93ad633766ff1dc7122.json",
+					"name" : "dwb_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs_s__rosidl_typesupport_introspection_c-5ee4778a97e434c7473d.json",
+					"name" : "dwb_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs_uninstall-05544f736485538321b3.json",
+					"name" : "dwb_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5e7ecd852dc5aaca865c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs",
+		"source" : "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

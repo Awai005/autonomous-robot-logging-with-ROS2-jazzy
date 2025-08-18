@@ -1,0 +1,62 @@
+[0.016s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_simple_commander:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging -- -j12 -l12
+[0.063s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.400s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[0.445s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.451s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.476s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.489s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.619s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.620s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.744s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.744s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.745s] -- Added test 'lint_cmake' to check CMake code style
+[0.745s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.749s] -- Added test 'xmllint' to check XML markup files
+[0.750s] -- Configuring done (0.7s)
+[0.756s] -- Generating done (0.0s)
+[0.759s] -- Build files have been written to: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging
+[0.800s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_simple_commander:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging -- -j12 -l12
+[0.815s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_simple_commander:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging
+[0.829s] -- Install configuration: ""
+[0.829s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes
+[0.830s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/rl_wheel.STL
+[0.830s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/fl_wheel.STL
+[0.831s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/fr_wheel.STL
+[0.831s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/base_link.STL
+[0.831s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/lidar_link.STL
+[0.832s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/rr_wheel.STL
+[0.832s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/urdf
+[0.832s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/urdf/skid_steer_gazebo.xacro
+[0.833s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/urdf/skid_steer.urdf.xacro
+[0.833s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/urdf/skid_steer_ros2_control.xacro
+[0.833s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch
+[0.833s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch/gazebo.launch.py
+[0.834s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch/nav2_bringup.launch.py
+[0.834s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch/simple_nav.launch.py
+[0.834s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch/display.launch.py
+[0.835s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch/mapping.launch.py
+[0.835s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/config
+[0.835s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/config/controllers.yaml
+[0.836s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/config/nav2_params.yaml
+[0.837s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/config/slam_toolbox.yaml
+[0.837s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/worlds
+[0.837s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/worlds/lidar_rangeworld.sdf
+[0.837s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/worlds/teranova.sdf
+[0.838s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/worlds/tera_nova.sdf
+[0.838s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/rviz
+[0.839s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/rviz/mapping.rviz
+[0.839s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/rviz/slam_view.rviz
+[0.839s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/maps
+[0.839s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/maps/my_map.yaml
+[0.840s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/maps/my_map.pgm
+[0.840s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/src
+[0.840s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/src/simple_navigator.py
+[0.841s] [31mCMake Error at cmake_install.cmake:59 (file):
+[0.841s]   file INSTALL cannot find
+[0.841s]   "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/robot_logging/simple_navigator.py":
+[0.842s]   No such file or directory.
+[0.843s] 
+[0.843s] [0m
+[0.844s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_simple_commander:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging

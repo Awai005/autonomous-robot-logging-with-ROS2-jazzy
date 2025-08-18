@@ -1,0 +1,58 @@
+[0.016s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging -- -j12 -l12
+[0.162s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.663s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[0.837s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.873s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.042s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.042s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.044s] -- Added test 'lint_cmake' to check CMake code style
+[1.046s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.054s] -- Added test 'xmllint' to check XML markup files
+[1.057s] -- Configuring done (1.0s)
+[1.137s] -- Generating done (0.1s)
+[1.143s] -- Build files have been written to: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging
+[1.184s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging -- -j12 -l12
+[1.202s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging
+[1.212s] -- Install configuration: ""
+[1.213s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes
+[1.213s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/rl_wheel.STL
+[1.213s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/fl_wheel.STL
+[1.214s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/fr_wheel.STL
+[1.214s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/base_link.STL
+[1.214s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/lidar_link.STL
+[1.215s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/meshes/rr_wheel.STL
+[1.215s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/urdf
+[1.215s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/urdf/skid_steer_gazebo.xacro
+[1.215s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/urdf/skid_steer.urdf.xacro
+[1.216s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/urdf/skid_steer_ros2_control.xacro
+[1.216s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch
+[1.216s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch/gazebo.launch.py
+[1.217s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch/display.launch.py
+[1.217s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/launch/slam_demo.launch.py
+[1.217s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/config
+[1.217s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/config/controllers.yaml
+[1.218s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/config/slam.yaml
+[1.218s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/config/nav2_params.yaml
+[1.218s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/config/slam_toolbox.yaml
+[1.219s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/worlds
+[1.219s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/worlds/lidar_rangeworld.sdf
+[1.220s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/worlds/teranova.sdf
+[1.220s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/worlds/tera_nova.sdf
+[1.220s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/rviz
+[1.221s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/rviz/slam_view.rviz
+[1.221s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/ament_index/resource_index/package_run_dependencies/robot_logging
+[1.221s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/ament_index/resource_index/parent_prefix_path/robot_logging
+[1.221s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/environment/ament_prefix_path.sh
+[1.222s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/environment/ament_prefix_path.dsv
+[1.222s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/environment/path.sh
+[1.222s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/environment/path.dsv
+[1.222s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/local_setup.bash
+[1.223s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/local_setup.sh
+[1.223s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/local_setup.zsh
+[1.223s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/local_setup.dsv
+[1.223s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/package.dsv
+[1.224s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/ament_index/resource_index/packages/robot_logging
+[1.224s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/cmake/robot_loggingConfig.cmake
+[1.225s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/cmake/robot_loggingConfig-version.cmake
+[1.225s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging/share/robot_logging/package.xml
+[1.225s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/robot_logging

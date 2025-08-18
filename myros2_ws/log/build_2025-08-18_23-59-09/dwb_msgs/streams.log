@@ -1,0 +1,520 @@
+[0.025s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs
+[0.129s] -- The C compiler identification is GNU 13.3.0
+[0.203s] -- The CXX compiler identification is GNU 13.3.0
+[0.227s] -- Detecting C compiler ABI info
+[0.347s] -- Detecting C compiler ABI info - done
+[0.359s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.359s] -- Detecting C compile features
+[0.360s] -- Detecting C compile features - done
+[0.372s] -- Detecting CXX compiler ABI info
+[0.505s] -- Detecting CXX compiler ABI info - done
+[0.537s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.538s] -- Detecting CXX compile features
+[0.540s] -- Detecting CXX compile features - done
+[0.553s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.754s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.033s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.061s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.092s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.126s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.157s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.206s] -- Found nav_2d_msgs: 1.3.7 (/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[1.235s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.293s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.323s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.308s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.091s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.108s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.304s] -- Found PythonExtra: /usr/bin/python3  
+[4.887s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.035s] -- Configuring done (5.0s)
+[5.138s] -- Generating done (0.1s)
+[5.156s] -- Build files have been written to: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs
+[5.170s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs
+[5.171s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs -- -j12 -l12
+[5.257s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.275s] [  1%] Built target ament_cmake_python_copy_dwb_msgs
+[5.564s] running egg_info
+[5.565s] creating dwb_msgs.egg-info
+[5.594s] writing dwb_msgs.egg-info/PKG-INFO
+[5.594s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[5.595s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[5.595s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[5.681s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[5.682s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[5.719s] [  1%] Built target ament_cmake_python_build_dwb_msgs_egg
+[5.853s] [  1%] Built target dwb_msgs__rosidl_generator_type_description
+[5.869s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.885s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.131s] [  2%] Built target dwb_msgs__cpp
+[7.451s] [  4%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__functions.c.o[0m
+[7.451s] [  4%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__description.c.o[0m
+[7.459s] [  5%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__description.c.o[0m
+[7.459s] [  5%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o[0m
+[7.467s] [  6%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__functions.c.o[0m
+[7.467s] [  7%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__type_support.c.o[0m
+[7.474s] [  8%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__description.c.o[0m
+[7.481s] [  9%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__functions.c.o[0m
+[7.481s] [ 10%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__description.c.o[0m
+[7.485s] [ 11%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o[0m
+[7.504s] [ 13%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__functions.c.o[0m
+[7.504s] [ 13%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o[0m
+[7.587s] [ 14%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__description.c.o[0m
+[7.602s] [ 15%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o[0m
+[7.613s] [ 17%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__functions.c.o[0m
+[7.613s] [ 17%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__description.c.o[0m
+[7.616s] [ 17%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__functions.c.o[0m
+[7.626s] [ 18%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o[0m
+[7.659s] [ 19%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__description.c.o[0m
+[7.670s] [ 20%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__functions.c.o[0m
+[7.670s] [ 21%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o[0m
+[7.672s] [ 22%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__functions.c.o[0m
+[7.684s] [ 22%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__description.c.o[0m
+[7.730s] [ 23%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o[0m
+[7.812s] [ 24%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__description.c.o[0m
+[7.819s] [ 25%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__functions.c.o[0m
+[7.835s] [ 26%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o[0m
+[8.033s] [ 27%] [32m[1mLinking C shared library libdwb_msgs__rosidl_generator_c.so[0m
+[8.115s] [ 27%] Built target dwb_msgs__rosidl_generator_c
+[8.135s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.137s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.140s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.140s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.140s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.140s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.999s] [ 35%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[8.999s] [ 35%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[8.999s] [ 35%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[8.999s] [ 35%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[9.004s] [ 36%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[9.004s] [ 37%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[9.005s] [ 38%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[9.081s] [ 39%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[9.086s] [ 40%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[9.148s] [ 42%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[9.149s] [ 42%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[9.151s] [ 43%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[9.151s] [ 43%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[9.160s] [ 45%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[9.161s] [ 45%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[9.184s] [ 47%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_c.so[0m
+[9.185s] [ 47%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[9.274s] [ 47%] Built target dwb_msgs__rosidl_typesupport_c
+[9.295s] [ 48%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[9.776s] [ 49%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[9.812s] [ 50%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/critic_score__type_support.c.o[0m
+[9.818s] [ 51%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o[0m
+[9.876s] [ 51%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o[0m
+[9.904s] [ 52%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o[0m
+[9.907s] [ 53%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o[0m
+[9.951s] [ 54%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o[0m
+[10.050s] [ 55%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o[0m
+[10.061s] [ 56%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o[0m
+[10.085s] [ 57%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o[0m
+[10.139s] [ 58%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/critic_score__type_support.cpp.o[0m
+[10.178s] [ 59%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp.o[0m
+[10.201s] [ 60%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp.o[0m
+[10.213s] [ 61%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory_score__type_support.cpp.o[0m
+[10.231s] [ 62%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp.o[0m
+[10.231s] [ 63%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp.o[0m
+[10.252s] [ 64%] [32m[1mLinking C shared library libdwb_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.264s] [ 65%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/critic_score__type_support.cpp.o[0m
+[10.307s] [ 66%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/local_plan_evaluation__type_support.cpp.o[0m
+[10.370s] [ 67%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_twists__type_support.cpp.o[0m
+[10.406s] [ 67%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[10.454s] [ 68%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory2_d__type_support.cpp.o[0m
+[10.899s] [ 68%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/get_critic_score__type_support.cpp.o[0m
+[11.008s] [ 69%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_cpp.so[0m
+[11.054s] [ 69%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/critic_score__type_support_c.cpp.o[0m
+[11.277s] [ 70%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/score_trajectory__type_support.cpp.o[0m
+[11.540s] [ 71%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory_score__type_support.cpp.o[0m
+[11.619s] [ 71%] Built target dwb_msgs__rosidl_typesupport_cpp
+[11.671s] [ 72%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/debug_local_plan__type_support.cpp.o[0m
+[11.713s] [ 73%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support_c.cpp.o[0m
+[11.891s] [ 73%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_trajectory__type_support.cpp.o[0m
+[11.998s] [ 74%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory2_d__type_support_c.cpp.o[0m
+[12.109s] [ 75%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_twists__type_support.cpp.o[0m
+[12.458s] [ 76%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory_score__type_support_c.cpp.o[0m
+[12.485s] [ 77%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/debug_local_plan__type_support_c.cpp.o[0m
+[12.588s] [ 78%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/get_critic_score__type_support.cpp.o[0m
+[12.865s] [ 79%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_trajectory__type_support_c.cpp.o[0m
+[13.219s] [ 80%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_twists__type_support_c.cpp.o[0m
+[13.269s] [ 81%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/get_critic_score__type_support_c.cpp.o[0m
+[13.569s] [ 81%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/score_trajectory__type_support_c.cpp.o[0m
+[13.582s] [ 82%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/score_trajectory__type_support.cpp.o[0m
+[14.061s] [ 83%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[14.667s] [ 83%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[15.189s] [ 84%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[15.682s] [ 84%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[15.768s] [ 85%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.005s] [ 85%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[16.049s] [ 85%] Built target dwb_msgs
+[16.095s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[19.113s] [ 86%] Built target dwb_msgs__py
+[19.163s] [ 86%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_local_plan_evaluation_s.c.o[0m
+[19.163s] [ 87%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_critic_score_s.c.o[0m
+[19.163s] [ 88%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory_score_s.c.o[0m
+[19.164s] [ 89%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory2_d_s.c.o[0m
+[19.165s] [ 90%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_debug_local_plan_s.c.o[0m
+[19.167s] [ 91%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_trajectory_s.c.o[0m
+[19.171s] [ 92%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_twists_s.c.o[0m
+[19.174s] [ 93%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_get_critic_score_s.c.o[0m
+[19.186s] [ 94%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_score_trajectory_s.c.o[0m
+[19.609s] [ 94%] [32m[1mLinking C shared library libdwb_msgs__rosidl_generator_py.so[0m
+[19.722s] [ 94%] Built target dwb_msgs__rosidl_generator_py
+[19.758s] [ 95%] [32mBuilding C object CMakeFiles/dwb_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.766s] [ 97%] [32mBuilding C object CMakeFiles/dwb_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.766s] [ 97%] [32mBuilding C object CMakeFiles/dwb_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[19.970s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[20.042s] [ 98%] Built target dwb_msgs_s__rosidl_typesupport_introspection_c
+[20.075s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so[0m
+[20.105s] [100%] [32m[1mLinking C shared module rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[20.142s] [100%] Built target dwb_msgs_s__rosidl_typesupport_c
+[20.159s] [100%] Built target dwb_msgs_s__rosidl_typesupport_fastrtps_c
+[20.182s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs -- -j12 -l12
+[20.183s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs
+[20.200s] -- Install configuration: ""
+[20.201s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[20.201s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.json
+[20.201s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.json
+[20.202s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.json
+[20.202s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.json
+[20.203s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.json
+[20.203s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.json
+[20.204s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.json
+[20.204s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.json
+[20.204s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.json
+[20.205s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[20.205s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[20.205s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.h
+[20.205s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[20.206s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.h
+[20.206s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.h
+[20.206s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.h
+[20.207s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[20.207s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c
+[20.207s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__description.c
+[20.208s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[20.208s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[20.208s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[20.209s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[20.209s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.h
+[20.209s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[20.210s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.h
+[20.210s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.c
+[20.210s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.h
+[20.211s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.h
+[20.211s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[20.211s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.c
+[20.211s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.c
+[20.212s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.c
+[20.212s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.h
+[20.212s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.c
+[20.213s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__description.c
+[20.213s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__description.c
+[20.213s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__description.c
+[20.213s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.c
+[20.214s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.c
+[20.214s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[20.214s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[20.214s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.h
+[20.215s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.h
+[20.215s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[20.215s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.h
+[20.216s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.h
+[20.216s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__description.c
+[20.216s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[20.217s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[20.217s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.c
+[20.217s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.c
+[20.218s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__description.c
+[20.218s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.c
+[20.218s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[20.219s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.h
+[20.219s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.c
+[20.219s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.c
+[20.219s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.h
+[20.220s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.c
+[20.220s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.h
+[20.220s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[20.221s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.h
+[20.221s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.c
+[20.221s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__description.c
+[20.222s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.c
+[20.222s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[20.222s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.c
+[20.223s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[20.223s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__description.c
+[20.223s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[20.223s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[20.224s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__description.c
+[20.224s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.c
+[20.224s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.h
+[20.224s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.h
+[20.225s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.h
+[20.225s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.h
+[20.225s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[20.225s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[20.226s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[20.230s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so" to ""
+[20.230s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[20.230s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[20.231s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.231s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[20.231s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[20.232s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[20.232s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[20.232s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[20.233s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[20.233s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[20.233s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[20.233s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[20.234s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[20.234s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[20.234s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[20.234s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[20.235s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[20.235s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[20.236s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[20.236s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
+[20.236s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
+[20.237s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.hpp
+[20.237s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[20.237s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[20.238s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[20.238s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[20.239s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[20.239s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.hpp
+[20.239s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.hpp
+[20.239s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.hpp
+[20.240s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[20.240s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.hpp
+[20.240s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[20.241s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[20.241s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[20.242s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
+[20.242s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
+[20.242s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
+[20.243s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[20.243s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[20.243s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
+[20.244s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[20.244s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.hpp
+[20.244s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.hpp
+[20.244s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[20.245s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[20.245s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.hpp
+[20.245s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[20.246s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[20.246s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[20.246s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[20.247s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.hpp
+[20.247s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[20.247s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[20.248s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[20.248s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[20.248s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[20.249s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.hpp
+[20.249s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[20.249s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.hpp
+[20.250s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.hpp
+[20.250s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[20.250s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[20.251s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[20.251s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[20.251s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.hpp
+[20.251s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.hpp
+[20.252s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.hpp
+[20.252s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[20.252s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[20.252s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.252s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[20.253s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[20.253s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/dds_fastrtps
+[20.254s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[20.254s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[20.254s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[20.254s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[20.255s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[20.255s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[20.255s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[20.256s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[20.256s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[20.256s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/dds_fastrtps
+[20.257s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[20.257s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[20.257s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.258s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[20.258s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[20.258s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.258s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[20.259s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[20.259s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c
+[20.259s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[20.259s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.c
+[20.260s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[20.260s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[20.260s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.c
+[20.261s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.c
+[20.261s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[20.261s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[20.262s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[20.262s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.c
+[20.262s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.c
+[20.262s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.c
+[20.262s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[20.262s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.c
+[20.262s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[20.263s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.c
+[20.263s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[20.263s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[20.263s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[20.263s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[20.263s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[20.263s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so" to ""
+[20.263s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[20.264s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[20.264s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[20.264s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp
+[20.264s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[20.264s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.cpp
+[20.264s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp
+[20.264s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[20.264s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[20.264s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[20.265s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.cpp
+[20.265s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[20.265s] -- Up-to-date: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[20.265s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.cpp
+[20.265s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[20.265s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[20.265s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[20.265s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp
+[20.265s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[20.266s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp
+[20.266s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[20.266s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.cpp
+[20.266s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.cpp
+[20.266s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[20.268s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[20.268s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[20.270s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so" to ""
+[20.270s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[20.270s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[20.271s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.7-py3.12.egg-info
+[20.271s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.7-py3.12.egg-info/SOURCES.txt
+[20.271s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.7-py3.12.egg-info/dependency_links.txt
+[20.271s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.7-py3.12.egg-info/PKG-INFO
+[20.271s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.7-py3.12.egg-info/top_level.txt
+[20.272s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs
+[20.272s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so
+[20.272s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c
+[20.273s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so
+[20.273s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[20.273s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg
+[20.274s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score.py
+[20.274s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score_s.c
+[20.274s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score.py
+[20.274s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[20.275s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[20.275s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score_s.c
+[20.275s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d.py
+[20.275s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[20.275s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/__init__.py
+[20.276s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv
+[20.276s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[20.276s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory.py
+[20.276s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score_s.c
+[20.277s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan.py
+[20.277s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[20.277s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists_s.c
+[20.277s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists.py
+[20.278s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/__init__.py
+[20.278s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory_s.c
+[20.278s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score.py
+[20.278s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory.py
+[20.279s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/__init__.py
+[20.279s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so
+[20.279s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.363s] Listing '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs'...
+[20.363s] Compiling '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/__init__.py'...
+[20.364s] Listing '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg'...
+[20.364s] Compiling '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/__init__.py'...
+[20.364s] Compiling '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score.py'...
+[20.364s] Compiling '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation.py'...
+[20.365s] Compiling '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d.py'...
+[20.365s] Compiling '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score.py'...
+[20.365s] Listing '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv'...
+[20.365s] Compiling '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/__init__.py'...
+[20.366s] Compiling '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan.py'...
+[20.366s] Compiling '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory.py'...
+[20.366s] Compiling '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists.py'...
+[20.367s] Compiling '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score.py'...
+[20.367s] Compiling '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory.py'...
+[20.370s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so
+[20.371s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[20.371s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so
+[20.372s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[20.372s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so
+[20.373s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so" to ""
+[20.373s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so
+[20.374s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so" to ""
+[20.374s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[20.375s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[20.375s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[20.375s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[20.375s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[20.376s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[20.376s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[20.376s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[20.377s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[20.377s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[20.377s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[20.378s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[20.378s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[20.378s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[20.378s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[20.379s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[20.379s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[20.379s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[20.380s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[20.380s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[20.380s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[20.381s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[20.381s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[20.381s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[20.382s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[20.382s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[20.383s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[20.383s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[20.383s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/package.dsv
+[20.384s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[20.384s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport.cmake
+[20.385s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[20.385s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[20.385s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.386s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cppExport.cmake
+[20.386s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.387s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.387s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[20.387s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.388s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[20.388s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[20.389s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[20.389s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.389s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[20.390s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[20.390s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport.cmake
+[20.390s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[20.391s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[20.391s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.392s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.392s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[20.392s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[20.393s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.393s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.393s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[20.393s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[20.393s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/dwb_msgs/share/dwb_msgs/package.xml
+[20.398s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/robot_logging:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs

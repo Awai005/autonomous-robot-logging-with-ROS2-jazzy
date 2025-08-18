@@ -1,0 +1,207 @@
+[0.020s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_smac_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/navigation2/nav2_smac_planner -DCMAKE_INSTALL_PREFIX=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner
+[1.626s] -- The C compiler identification is GNU 13.3.0
+[2.094s] -- The CXX compiler identification is GNU 13.3.0
+[2.196s] -- Detecting C compiler ABI info
+[2.455s] -- Detecting C compiler ABI info - done
+[2.467s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.467s] -- Detecting C compile features
+[2.468s] -- Detecting C compile features - done
+[2.485s] -- Detecting CXX compiler ABI info
+[2.662s] -- Detecting CXX compiler ABI info - done
+[2.674s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.675s] -- Detecting CXX compile features
+[2.675s] -- Detecting CXX compile features - done
+[2.761s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.046s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.963s] -- Found nav2_common: 1.3.7 (/opt/ros/jazzy/share/nav2_common/cmake)
+[4.043s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.412s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.506s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.638s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.720s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.138s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.180s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.477s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.560s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.597s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.914s] -- Found rclcpp_action: 28.1.10 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[6.082s] -- Found rclcpp_lifecycle: 28.1.10 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[6.208s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[6.247s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[6.471s] -- Found nav2_util: 1.3.7 (/opt/ros/jazzy/share/nav2_util/cmake)
+[7.059s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[7.077s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.077s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.267s] -- Found nav2_core: 1.3.7 (/opt/ros/jazzy/share/nav2_core/cmake)
+[7.892s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: serialization filesystem system 
+[8.314s] -- Found ompl: /opt/ros/jazzy/include/ompl-1.7;/usr/include;/usr/include/eigen3  
+[8.466s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.723s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.728s] -- Found Threads: TRUE  
+[9.215s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.226s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.228s] -- Configured cppcheck include dirs: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/navigation2/nav2_smac_planner/include
+[9.229s] -- Configured cppcheck exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[9.239s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.239s] -- Configured cpplint exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[9.242s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.242s] -- Configured 'flake8' exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[9.246s] -- Added test 'lint_cmake' to check CMake code style
+[9.248s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.258s] -- Added test 'uncrustify' to check C / C++ code style
+[9.258s] -- Configured uncrustify additional arguments: 
+[9.261s] -- Added test 'xmllint' to check XML markup files
+[9.267s] -- Configuring done (9.2s)
+[10.467s] -- Generating done (1.0s)
+[10.552s] -- Build files have been written to: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_smac_planner
+[10.577s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_smac_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/navigation2/nav2_smac_planner -DCMAKE_INSTALL_PREFIX=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner
+[10.579s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_smac_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_smac_planner -- -j12 -l12
+[10.694s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[10.695s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[10.695s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o[0m
+[10.695s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.698s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o[0m
+[10.698s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/a_star.cpp.o[0m
+[10.701s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/collision_checker.cpp.o[0m
+[10.706s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/analytic_expansion.cpp.o[0m
+[10.707s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_hybrid.cpp.o[0m
+[10.711s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/a_star.cpp.o[0m
+[10.718s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[10.725s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[12.823s] [ 21%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[12.957s] [ 21%] Built target gtest_main
+[12.980s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o[0m
+[30.572s] [ 24%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_lattice.cpp.o[0m
+[31.661s] [ 26%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/collision_checker.cpp.o[0m
+[33.271s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o[0m
+[35.443s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/costmap_downsampler.cpp.o[0m
+[36.768s] [ 31%] [32m[1mLinking CXX static library libgtest.a[0m
+[36.983s] [ 31%] Built target gtest
+[37.020s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o[0m
+[37.231s] [ 34%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o[0m
+[38.743s] [ 36%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/analytic_expansion.cpp.o[0m
+[40.482s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o[0m
+[40.736s] [ 39%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_2d.cpp.o[0m
+[42.723s] [ 40%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_basic.cpp.o[0m
+[46.762s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_hybrid.cpp.o[0m
+[47.265s] [ 44%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o[0m
+[49.274s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_lattice.cpp.o[0m
+[55.272s] [ 47%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/costmap_downsampler.cpp.o[0m
+[56.010s] [ 49%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o[0m
+[58.860s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_2d.cpp.o[0m
+[60.407s] [ 52%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o[0m
+[61.031s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o[0m
+[61.435s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_basic.cpp.o[0m
+[63.469s] [ 57%] [32m[1mLinking CXX shared library libnav2_smac_planner_lattice.so[0m
+[66.553s] [ 57%] Built target nav2_smac_planner_lattice
+[66.659s] [ 59%] [32mBuilding CXX object test/CMakeFiles/test_smac_lattice.dir/test_smac_lattice.cpp.o[0m
+[74.828s] [ 60%] [32m[1mLinking CXX shared library libnav2_smac_planner_2d.so[0m
+[75.476s] [ 62%] [32m[1mLinking CXX shared library libnav2_smac_planner.so[0m
+[75.703s] [ 62%] Built target nav2_smac_planner_2d
+[75.765s] [ 63%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[76.789s] [ 63%] Built target nav2_smac_planner
+[76.842s] [ 65%] [32mBuilding CXX object test/CMakeFiles/test_utils.dir/test_utils.cpp.o[0m
+[76.845s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_costmap_downsampler.dir/test_costmap_downsampler.cpp.o[0m
+[81.949s] [ 68%] [32m[1mLinking CXX executable test_smac_lattice[0m
+[82.607s] [ 68%] Built target test_smac_lattice
+[82.645s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_lattice_node.dir/test_nodelattice.cpp.o[0m
+[82.645s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[82.654s] [ 73%] [32mBuilding CXX object test/CMakeFiles/test_collision_checker.dir/test_collision_checker.cpp.o[0m
+[82.655s] [ 75%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[82.658s] [ 77%] [32mBuilding CXX object test/CMakeFiles/test_smac_hybrid.dir/test_smac_hybrid.cpp.o[0m
+[85.074s] [ 78%] [32m[1mLinking CXX executable test_costmap_downsampler[0m
+[85.701s] [ 80%] [32m[1mLinking CXX executable test_utils[0m
+[86.418s] [ 80%] Built target test_utils
+[86.483s] [ 81%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[86.491s] [ 83%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[86.491s] [ 85%] [32mBuilding CXX object test/CMakeFiles/test_nodehybrid.dir/test_nodehybrid.cpp.o[0m
+[86.519s] [ 85%] Built target test_costmap_downsampler
+[91.048s] [ 86%] [32m[1mLinking CXX executable test_collision_checker[0m
+[91.514s] [ 88%] [32m[1mLinking CXX executable test_smac_2d[0m
+[91.894s] [ 88%] Built target test_collision_checker
+[92.913s] [ 88%] Built target test_smac_2d
+[94.961s] [ 90%] [32m[1mLinking CXX executable test_a_star[0m
+[95.747s] [ 90%] Built target test_a_star
+[96.967s] [ 91%] [32m[1mLinking CXX executable test_nodehybrid[0m
+[98.133s] [ 91%] Built target test_nodehybrid
+[98.268s] [ 93%] [32m[1mLinking CXX executable test_node2d[0m
+[98.539s] [ 95%] [32m[1mLinking CXX executable test_smoother[0m
+[99.199s] [ 95%] Built target test_node2d
+[99.394s] [ 95%] Built target test_smoother
+[99.497s] [ 96%] [32m[1mLinking CXX executable test_lattice_node[0m
+[99.578s] [ 98%] [32m[1mLinking CXX executable test_smac_hybrid[0m
+[99.653s] [100%] [32m[1mLinking CXX executable test_nodebasic[0m
+[100.109s] [100%] Built target test_nodebasic
+[100.246s] [100%] Built target test_lattice_node
+[100.314s] [100%] Built target test_smac_hybrid
+[100.337s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_smac_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_smac_planner -- -j12 -l12
+[100.340s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_smac_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_smac_planner
+[100.352s] -- Install configuration: "Release"
+[100.352s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_hybrid.xml
+[100.352s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_2d.xml
+[100.353s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_lattice.xml
+[100.353s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/lib/libnav2_smac_planner.so
+[100.357s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/lib/libnav2_smac_planner.so" to ""
+[100.357s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so
+[100.359s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so" to ""
+[100.359s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so
+[100.361s] -- Set non-toolchain portion of runtime path of "/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so" to ""
+[100.362s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include/
+[100.363s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner
+[100.363s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_basic.hpp
+[100.364s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/types.hpp
+[100.364s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/utils.hpp
+[100.364s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/a_star.hpp
+[100.365s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_lattice.hpp
+[100.365s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/collision_checker.hpp
+[100.366s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_2d.hpp
+[100.366s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/analytic_expansion.hpp
+[100.366s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_hybrid.hpp
+[100.366s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_lattice.hpp
+[100.367s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/constants.hpp
+[100.367s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_hybrid.hpp
+[100.367s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/costmap_downsampler.hpp
+[100.368s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty
+[100.368s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty/robin_hood.h
+[100.368s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_2d.hpp
+[100.368s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/smoother.hpp
+[100.369s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives
+[100.369s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution
+[100.369s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius
+[100.369s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png
+[100.370s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann
+[100.370s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json
+[100.370s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff
+[100.370s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json
+[100.379s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni
+[100.379s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json
+[100.394s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius
+[100.394s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png
+[100.395s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann
+[100.395s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json
+[100.397s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff
+[100.397s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json
+[100.410s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni
+[100.410s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json
+[100.428s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.sh
+[100.428s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.dsv
+[100.429s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/ament_index/resource_index/package_run_dependencies/nav2_smac_planner
+[100.430s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/ament_index/resource_index/parent_prefix_path/nav2_smac_planner
+[100.430s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.sh
+[100.430s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.dsv
+[100.431s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.sh
+[100.431s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.dsv
+[100.432s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.bash
+[100.433s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.sh
+[100.433s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.zsh
+[100.433s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.dsv
+[100.434s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv
+[100.435s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/ament_index/resource_index/packages/nav2_smac_planner
+[100.435s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smac_planner
+[100.436s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[100.436s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[100.437s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[100.437s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig.cmake
+[100.438s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig-version.cmake
+[100.438s] -- Installing: /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/package.xml
+[100.446s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_smac_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/nav2_smac_planner

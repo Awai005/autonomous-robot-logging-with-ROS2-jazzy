@@ -1,0 +1,324 @@
+<sdf version='1.10'>
+  <world name='teranova'>
+    <physics name="dart" type="dart">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+  <render_engine>ogre2</render_engine>
+  <frameName>base_link</frameName>
+</plugin>
+    <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system'/>
+    <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system'/>
+    <plugin name='gz::sim::systems::SceneBroadcaster' filename='gz-sim-scene-broadcaster-system'/>
+    <plugin name='gz::sim::systems::Contact' filename='gz-sim-contact-system'/>
+    <gravity>0 0 -9.8000000000000007</gravity>
+    <magnetic_field>5.5644999999999998e-06 2.2875799999999999e-05 -4.2388400000000002e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <scene>
+      <ambient>0.400000006 0.400000006 0.400000006 1</ambient>
+      <background>0.699999988 0.699999988 0.699999988 1</background>
+      <shadows>true</shadows>
+    </scene>
+    
+    <model name='ground_plane'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+    <dart>
+      <mu>1.0</mu>
+      <mu2>0.8</mu2>
+    </dart>
+  </friction>
+  <contact>
+    <dart>
+      <kp>3e5</kp>
+      <kd>1.0</kd>
+    </dart>
+  </contact>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.800000012 0.800000012 0.800000012 1</ambient>
+            <diffuse>0.800000012 0.800000012 0.800000012 1</diffuse>
+            <specular>0.800000012 0.800000012 0.800000012 1</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <enable_wind>false</enable_wind>
+      </link>
+      <pose>0 0 0 0 0 0</pose>
+      <self_collide>false</self_collide>
+    </model>
+   
+         <!-- =========================
+         STREET LOOP GEOMETRY
+         Outer rectangle half-lengths: X=7.0, Y=4.0
+         Inner rectangle half-lengths: X=5.5, Y=2.5
+         Lane width everywhere: 1.5 m
+         Curb thickness: 0.2 m, height: 0.4 m
+         ========================= -->
+
+    <!-- Outer curbs (boundaries of the street) -->
+    <!-- Top -->
+    <model name="outer_top_curb">
+      <static>true</static>
+      <pose>0 4.1 0 0 0 0</pose>
+      <link name="link">
+        <pose>0 0 0.2 0 0 0</pose>
+        <visual name="v">
+          <geometry><box><size>14.0 0.2 0.4</size></box></geometry>
+          <material><ambient>0.5 0.5 0.5 1</ambient></material>
+          <laser_retro>200</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><box><size>14.0 0.2 0.4</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <!-- Bottom -->
+    <model name="outer_bottom_curb">
+      <static>true</static>
+      <pose>0 -4.1 0 0 0 0</pose>
+      <link name="link">
+        <pose>0 0 0.2 0 0 0</pose>
+        <visual name="v">
+          <geometry><box><size>14.0 0.2 0.4</size></box></geometry>
+          <material><ambient>0.5 0.5 0.5 1</ambient></material>
+          <laser_retro>200</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><box><size>14.0 0.2 0.4</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <!-- Left -->
+    <model name="outer_left_curb">
+      <static>true</static>
+      <pose>-7.1 0 0 0 0 1.57079632679</pose>
+      <link name="link">
+        <pose>0 0 0.2 0 0 0</pose>
+        <visual name="v">
+          <geometry><box><size>8.0 0.2 0.4</size></box></geometry>
+          <material><ambient>0.5 0.5 0.5 1</ambient></material>
+          <laser_retro>200</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><box><size>8.0 0.2 0.4</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <!-- Right -->
+    <model name="outer_right_curb">
+      <static>true</static>
+      <pose>7.1 0 0 0 0 1.57079632679</pose>
+      <link name="link">
+        <pose>0 0 0.2 0 0 0</pose>
+        <visual name="v">
+          <geometry><box><size>8.0 0.2 0.4</size></box></geometry>
+          <material><ambient>0.5 0.5 0.5 1</ambient></material>
+          <laser_retro>200</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><box><size>8.0 0.2 0.4</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Inner curbs (island in the middle) -->
+    <!-- Top inner -->
+    <model name="inner_top_curb">
+      <static>true</static>
+      <!-- Center at y = 2.5 - 0.1 (outer face at y=+2.5) -->
+      <pose>0 2.4 0 0 0 0</pose>
+      <link name="link">
+        <pose>0 0 0.2 0 0 0</pose>
+        <visual name="v">
+          <geometry><box><size>11.0 0.2 0.4</size></box></geometry>
+          <material><ambient>0.45 0.45 0.45 1</ambient></material>
+          <laser_retro>200</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><box><size>11.0 0.2 0.4</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <!-- Bottom inner -->
+    <model name="inner_bottom_curb">
+      <static>true</static>
+      <pose>0 -2.4 0 0 0 0</pose>
+      <link name="link">
+        <pose>0 0 0.2 0 0 0</pose>
+        <visual name="v">
+          <geometry><box><size>6.0 0.2 0.4</size></box></geometry>
+          <material><ambient>0.45 0.45 0.45 1</ambient></material>
+          <laser_retro>200</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><box><size>6.0 0.2 0.4</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <!-- Left inner -->
+    <model name="inner_left_curb">
+      <static>true</static>
+      <!-- Center at x = -5.5 + 0.1 (outer face at x=-5.5) -->
+      <pose>-5.4 0 0 0 0 1.57079632679</pose>
+      <link name="link">
+        <pose>0 0 0.2 0 0 0</pose>
+        <visual name="v">
+          <geometry><box><size>5.0 0.2 0.4</size></box></geometry>
+          <material><ambient>0.45 0.45 0.45 1</ambient></material>
+          <laser_retro>200</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><box><size>5.0 0.2 0.4</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <!-- Right inner -->
+    <model name="inner_right_curb">
+      <static>true</static>
+      <pose>5.4 0 0 0 0 1.57079632679</pose>
+      <link name="link">
+        <pose>0 0 0.2 0 0 0</pose>
+        <visual name="v">
+          <geometry><box><size>5.0 0.2 0.4</size></box></geometry>
+          <material><ambient>0.45 0.45 0.45 1</ambient></material>
+          <laser_retro>200</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><box><size>5.0 0.2 0.4</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Checkpoint markers (small posts the lidar can see) -->
+    <!-- A: left mid-lane -->
+    <model name="checkpoint_A">
+      <static>true</static>
+      <pose>-6.85 0 0 0 0 0</pose>
+      <link name="link">
+        <pose>0 0 0.3 0 0 0</pose>
+        <visual name="v">
+          <geometry><cylinder><radius>0.06</radius><length>0.6</length></cylinder></geometry>
+         <material><ambient>0.2 0.4 1 1</ambient><diffuse>0.2 0.4 1 1</diffuse></material>
+          <laser_retro>300</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><cylinder><radius>0.06</radius><length>0.6</length></cylinder></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- B: top mid-lane -->
+    <model name="checkpoint_B">
+      <static>true</static>
+      <pose>0 3.85 0 0 0 0</pose>
+      <link name="link">
+        <pose>0 0 0.3 0 0 0</pose>
+        <visual name="v">
+          <geometry><cylinder><radius>0.06</radius><length>0.6</length></cylinder></geometry>
+          <material>
+  <ambient>0.2 0.8 0.2 1</ambient>
+  <diffuse>0.2 0.8 0.2 1</diffuse>
+</material>
+          <laser_retro>300</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><cylinder><radius>0.06</radius><length>0.6</length></cylinder></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- C: right mid-lane -->
+    <model name="checkpoint_C">
+      <static>true</static>
+      <pose>6.85 -1.85 0 0 0 0</pose>
+      <link name="link">
+        <pose>0 0 0.3 0 0 0</pose>
+        <visual name="v">
+          <geometry><cylinder><radius>0.06</radius><length>0.6</length></cylinder></geometry>
+          <material>
+  <ambient>1 0.9 0.2 1</ambient>
+  <diffuse>1 0.9 0.2 1</diffuse>
+</material>
+          <laser_retro>300</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><cylinder><radius>0.06</radius><length>0.6</length></cylinder></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- D: middle Station -->
+    <model name="checkpoint_D">
+      <static>true</static>
+      <pose>0 0.85 0 0 0 0</pose>
+      <link name="link">
+        <pose>0 0 0.3 0 0 0</pose>
+        <visual name="v">
+          <geometry><cylinder><radius>0.06</radius><length>0.6</length></cylinder></geometry>
+<material>
+  <ambient>1 0.2 0.2 1</ambient>
+  <diffuse>1 0.2 0.2 1</diffuse>
+  <!-- optional -->
+  <specular>0.1 0.1 0.1 1</specular>
+</material>
+          <laser_retro>300</laser_retro>
+        </visual>
+        <collision name="c">
+          <geometry><cylinder><radius>0.06</radius><length>0.6</length></cylinder></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <light name='sun' type='directional'>
+      <pose>0 0 10 0 0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <intensity>1</intensity>
+      <direction>-0.5 0.10000000000000001 -0.90000000000000002</direction>
+      <diffuse>0.800000012 0.800000012 0.800000012 1</diffuse>
+      <specular>0.200000003 0.200000003 0.200000003 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <linear>0.01</linear>
+        <constant>0.90000000000000002</constant>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+  </world>
+</sdf>

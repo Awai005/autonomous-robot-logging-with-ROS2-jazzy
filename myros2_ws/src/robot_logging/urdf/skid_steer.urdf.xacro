@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="skid_steer_bot">
+
+
+ <xacro:arg name="is_ignition" default="true"/>
+
+  <!-- Include Gazebo Parameters -->
+  <xacro:include filename="$(find robot_logging)/urdf/skid_steer_gazebo.xacro" />
+
+  <!-- Include ros2_control Plugins -->
+  <xacro:include filename="$(find robot_logging)/urdf/skid_steer_ros2_control.xacro" />
+
+  <!-- Params -->
+  <xacro:property name="base_l" value="0.50"/>   <!-- base length (m) -->
+  <xacro:property name="base_w" value="0.30"/>   <!-- base width (m)  -->
+  <xacro:property name="base_h" value="0.12"/>
+  <xacro:property name="wheel_r" value="0.06"/>
+  <xacro:property name="wheel_w" value="0.03"/>
+
+
+  <!-- Base link -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 -0.02" rpy="0 0 0"/>
+      <mass value="20.0"/>
+      <inertia ixx="0.15" iyy="0.20" izz="0.25" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 ${base_h/2 + wheel_r/2}" rpy="0 0 0"/>
+      <geometry><box size="${base_l} ${base_w} ${base_h}"/></geometry>
+      <material name="gray"><color rgba="0.5 0.5 0.5 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${base_h/2 + wheel_r/2}" rpy="0 0 0"/>
+      <geometry><box size="${base_l} ${base_w} ${base_h}"/></geometry>
+    </collision>
+  </link>
+
+
+
+
+
+
+  <!-- Wheel macro -->
+<xacro:macro name="wheel" params="name x y axis_sign:=1.0">
+  <link name="${name}">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="5"/>
+      <inertia ixx="0.001" iyy="0.001" izz="0.001" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual>
+      <!-- cylinder’s axis along +y -->
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry><cylinder radius="${wheel_r}" length="${wheel_w}"/></geometry>
+      <material name="black"><color rgba="0.1 0.1 0.1 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry><cylinder radius="${wheel_r}" length="${wheel_w}"/></geometry>
+    </collision>
+  </link>
+
+  <joint name="${name}_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="${name}"/>
+    <origin xyz="${x} ${y} ${wheel_r}" rpy="0 0 0"/>
+    <!-- Positive velocity rolls forward on left; flip sign on right -->
+    <axis xyz="0 ${axis_sign} 0"/>
+  </joint>
+</xacro:macro>
+
+
+ <!-- LEFT/RIGHT DRIVE WHEELS (keep your macro, place around x=0, y=±0.165) -->
+<xacro:wheel name="left_wheel"  x="-0.12" y="0.165" axis_sign="1" />
+<xacro:wheel name="right_wheel" x="-0.12" y="-0.165" axis_sign="1"/>
+
+<!-- BALL CASTER (passive) -->
+<link name="caster_ball_link">
+  <inertial>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <mass value="0.05"/>
+    <inertia ixx="1e-5" iyy="1e-5" izz="1e-5" ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry><sphere radius="0.02"/></geometry>
+    <material name="black"><color rgba="0.1 0.1 0.1 1"/></material>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry><sphere radius="0.02"/></geometry>
+  </collision>
+</link>
+
+<!-- Fix the caster under the base (no joint needed for a ball) -->
+<joint name="caster_ball_joint" type="fixed">
+  <parent link="base_link"/>
+  <!-- place it slightly behind center; z = ball radius so it touches ground -->
+  <child link="caster_ball_link"/>
+  <origin xyz="0.12 0 ${0.02}" rpy="0 0 0"/>
+</joint>
+
+
+  <link name="lidar_link">
+  <inertial>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <mass value="0.1"/>
+    <inertia ixx="1e-5" iyy="1e-5" izz="1e-5" ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <cylinder length="0.05" radius="0.05"/>
+    </geometry>
+    <material name="black">
+      <color rgba="0.1 0.1 0.1 1"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <cylinder length="0.05" radius="0.05"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="lidar_joint" type="fixed">
+  <parent link="base_link"/>
+  <child link="lidar_link"/>
+  <origin xyz="0 0 ${wheel_r/2 + base_h +0.025}" rpy="0 0 0"/>
+</joint>
+
+  </robot>

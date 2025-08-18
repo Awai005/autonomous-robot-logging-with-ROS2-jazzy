@@ -1,0 +1,9 @@
+/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/CriticScore.idl
+/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/LocalPlanEvaluation.idl
+/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/Trajectory2D.idl
+/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/TrajectoryScore.idl
+/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/DebugLocalPlan.idl
+/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTrajectory.idl
+/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTwists.idl
+/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GetCriticScore.idl
+/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/ScoreTrajectory.idl
