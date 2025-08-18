@@ -41,7 +41,7 @@ source install/setup.bash
    ```
 3. Run the node:
    ```bash
-   ros2 run my_robot_nav nav_goal_logger
+   ros2 run waypoint_runner visit_points
    ```
    The node sends a test goal to `/navigate_to_pose` and logs a transaction when the goal is reached. To use with actual navigation goals, modify the node to subscribe to `/goal_pose` or integrate with your navigation pipeline.
 
