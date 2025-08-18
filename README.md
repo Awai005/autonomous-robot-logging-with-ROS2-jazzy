@@ -1,4 +1,4 @@
-# Robot Navigation with Blockchain Logging
+# autonomous-robot-logging-with-ROS2-jazzy
 
 ## Overview
 This package integrates a ROS2 Jazzy node with a local Ethereum blockchain (using Ganache) to log robot navigation data as transactions. Each time the robot reaches a navigation goal, it saves a transaction containing a timestamp, position, and status message to the blockchain.
