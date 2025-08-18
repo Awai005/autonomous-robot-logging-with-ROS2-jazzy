@@ -1,0 +1,24 @@
+[1.571s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/waypoint_runner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_runner build --build-base /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/build install --record /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/install.log --single-version-externally-managed install_data
+[1.979s] running egg_info
+[2.021s] writing ../../build/waypoint_runner/waypoint_runner.egg-info/PKG-INFO
+[2.022s] writing dependency_links to ../../build/waypoint_runner/waypoint_runner.egg-info/dependency_links.txt
+[2.022s] writing entry points to ../../build/waypoint_runner/waypoint_runner.egg-info/entry_points.txt
+[2.022s] writing requirements to ../../build/waypoint_runner/waypoint_runner.egg-info/requires.txt
+[2.022s] writing top-level names to ../../build/waypoint_runner/waypoint_runner.egg-info/top_level.txt
+[2.091s] reading manifest file '../../build/waypoint_runner/waypoint_runner.egg-info/SOURCES.txt'
+[2.092s] writing manifest file '../../build/waypoint_runner/waypoint_runner.egg-info/SOURCES.txt'
+[2.092s] running build
+[2.092s] running build_py
+[2.092s] copying waypoint_runner/visit_points.py -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/build/lib/waypoint_runner
+[2.093s] running install
+[2.101s] running install_lib
+[2.131s] copying /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/build/lib/waypoint_runner/visit_points.py -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/lib/python3.12/site-packages/waypoint_runner
+[2.132s] byte-compiling /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/lib/python3.12/site-packages/waypoint_runner/visit_points.py to visit_points.cpython-312.pyc
+[2.134s] running install_data
+[2.134s] running install_egg_info
+[2.165s] removing '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/lib/python3.12/site-packages/waypoint_runner-0.0.0-py3.12.egg-info' (and everything under it)
+[2.166s] Copying ../../build/waypoint_runner/waypoint_runner.egg-info to /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/lib/python3.12/site-packages/waypoint_runner-0.0.0-py3.12.egg-info
+[2.167s] running install_scripts
+[2.367s] Installing visit_points script to /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/lib/waypoint_runner
+[2.367s] writing list of installed files to '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/install.log'
+[2.406s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/waypoint_runner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_runner build --build-base /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/build install --record /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/install.log --single-version-externally-managed install_data

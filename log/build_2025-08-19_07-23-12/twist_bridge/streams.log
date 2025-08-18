@@ -1,0 +1,23 @@
+[1.865s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/twist_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/twist_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/twist_bridge/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/twist_bridge/build --no-deps symlink_data
+[2.494s] running develop
+[2.898s] running egg_info
+[2.899s] creating twist_bridge.egg-info
+[2.957s] writing twist_bridge.egg-info/PKG-INFO
+[2.957s] writing dependency_links to twist_bridge.egg-info/dependency_links.txt
+[2.957s] writing entry points to twist_bridge.egg-info/entry_points.txt
+[2.959s] writing requirements to twist_bridge.egg-info/requires.txt
+[2.961s] writing top-level names to twist_bridge.egg-info/top_level.txt
+[2.962s] writing manifest file 'twist_bridge.egg-info/SOURCES.txt'
+[3.045s] reading manifest file 'twist_bridge.egg-info/SOURCES.txt'
+[3.046s] writing manifest file 'twist_bridge.egg-info/SOURCES.txt'
+[3.086s] running build_ext
+[3.087s] Creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/twist_bridge/lib/python3.12/site-packages/twist-bridge.egg-link (link to .)
+[3.087s] Installing twist_to_stamped script to /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/twist_bridge/lib/twist_bridge
+[3.088s] 
+[3.088s] Installed /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/twist_bridge
+[3.090s] running symlink_data
+[3.090s] creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/twist_bridge/share/ament_index
+[3.090s] creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/twist_bridge/share/ament_index/resource_index
+[3.090s] creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/twist_bridge/share/ament_index/resource_index/packages
+[3.090s] symbolically linking /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/twist_bridge/resource/twist_bridge -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/twist_bridge/share/ament_index/resource_index/packages
+[3.090s] symbolically linking /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/twist_bridge/package.xml -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/twist_bridge/share/twist_bridge

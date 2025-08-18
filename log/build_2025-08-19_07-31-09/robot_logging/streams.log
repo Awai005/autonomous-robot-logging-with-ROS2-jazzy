@@ -1,0 +1,25 @@
+[0.038s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/robot_logging': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/waypoint_runner:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/twist_bridge:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_simple_commander:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/robot_logging -DCMAKE_INSTALL_PREFIX=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/robot_logging
+[0.432s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.433s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.433s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[0.444s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.452s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.490s] Traceback (most recent call last):
+[0.491s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.491s]     from catkin_pkg.package import parse_package_string
+[0.491s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.496s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.496s]   
+[0.496s]   execute_process(/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myenv/bin/python3
+[0.496s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.496s]   /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/robot_logging/package.xml
+[0.496s]   /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/robot_logging/ament_cmake_core/package.cmake)
+[0.496s]   returned error code 1
+[0.497s] Call Stack (most recent call first):
+[0.497s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.497s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.497s]   CMakeLists.txt:31 (ament_lint_auto_find_test_dependencies)
+[0.497s] 
+[0.497s] [0m
+[0.497s] -- Configuring incomplete, errors occurred!
+[0.853s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/robot_logging' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/waypoint_runner:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/twist_bridge:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_simple_commander:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/robot_logging -DCMAKE_INSTALL_PREFIX=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/robot_logging

@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing waypoint_runner.egg-info/PKG-INFO
+writing dependency_links to waypoint_runner.egg-info/dependency_links.txt
+writing entry points to waypoint_runner.egg-info/entry_points.txt
+writing requirements to waypoint_runner.egg-info/requires.txt
+writing top-level names to waypoint_runner.egg-info/top_level.txt
+reading manifest file 'waypoint_runner.egg-info/SOURCES.txt'
+writing manifest file 'waypoint_runner.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/lib/python3.12/site-packages/waypoint-runner.egg-link (link to .)
+Installing visit_points script to /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/lib/waypoint_runner
+
+Installed /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner
+running symlink_data
+symbolically linking /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/resource/waypoint_runner -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/share/ament_index/resource_index/packages
+symbolically linking /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/package.xml -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/share/waypoint_runner

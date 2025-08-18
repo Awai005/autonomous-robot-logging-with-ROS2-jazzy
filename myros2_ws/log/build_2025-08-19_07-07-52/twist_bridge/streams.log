@@ -1,0 +1,21 @@
+[1.519s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/twist_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/twist_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/twist_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twist_bridge build --build-base /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/twist_bridge/build install --record /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/twist_bridge/install.log --single-version-externally-managed install_data
+[1.933s] running egg_info
+[1.980s] writing ../../build/twist_bridge/twist_bridge.egg-info/PKG-INFO
+[1.980s] writing dependency_links to ../../build/twist_bridge/twist_bridge.egg-info/dependency_links.txt
+[1.980s] writing entry points to ../../build/twist_bridge/twist_bridge.egg-info/entry_points.txt
+[1.981s] writing requirements to ../../build/twist_bridge/twist_bridge.egg-info/requires.txt
+[1.981s] writing top-level names to ../../build/twist_bridge/twist_bridge.egg-info/top_level.txt
+[2.066s] reading manifest file '../../build/twist_bridge/twist_bridge.egg-info/SOURCES.txt'
+[2.067s] writing manifest file '../../build/twist_bridge/twist_bridge.egg-info/SOURCES.txt'
+[2.067s] running build
+[2.067s] running build_py
+[2.067s] running install
+[2.076s] running install_lib
+[2.107s] running install_data
+[2.107s] running install_egg_info
+[2.139s] removing '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/twist_bridge/lib/python3.12/site-packages/twist_bridge-0.0.0-py3.12.egg-info' (and everything under it)
+[2.139s] Copying ../../build/twist_bridge/twist_bridge.egg-info to /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/twist_bridge/lib/python3.12/site-packages/twist_bridge-0.0.0-py3.12.egg-info
+[2.141s] running install_scripts
+[2.341s] Installing twist_to_stamped script to /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/twist_bridge/lib/twist_bridge
+[2.342s] writing list of installed files to '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/twist_bridge/install.log'
+[2.381s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/src/twist_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/twist_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/twist_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twist_bridge build --build-base /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/twist_bridge/build install --record /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/twist_bridge/install.log --single-version-externally-managed install_data

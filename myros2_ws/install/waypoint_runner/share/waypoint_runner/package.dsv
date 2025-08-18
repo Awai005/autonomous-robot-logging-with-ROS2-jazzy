@@ -1,0 +1,12 @@
+source;share/waypoint_runner/hook/path.ps1
+source;share/waypoint_runner/hook/path.dsv
+source;share/waypoint_runner/hook/path.sh
+source;share/waypoint_runner/hook/pythonpath.ps1
+source;share/waypoint_runner/hook/pythonpath.dsv
+source;share/waypoint_runner/hook/pythonpath.sh
+source;share/waypoint_runner/hook/pythonscriptspath.ps1
+source;share/waypoint_runner/hook/pythonscriptspath.dsv
+source;share/waypoint_runner/hook/pythonscriptspath.sh
+source;share/waypoint_runner/hook/ament_prefix_path.ps1
+source;share/waypoint_runner/hook/ament_prefix_path.dsv
+source;share/waypoint_runner/hook/ament_prefix_path.sh

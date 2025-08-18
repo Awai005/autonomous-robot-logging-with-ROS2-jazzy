@@ -1,0 +1,23 @@
+[1.848s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/waypoint_runner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/waypoint_runner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/waypoint_runner/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/waypoint_runner/build --no-deps symlink_data
+[2.445s] running develop
+[2.901s] running egg_info
+[2.902s] creating waypoint_runner.egg-info
+[2.950s] writing waypoint_runner.egg-info/PKG-INFO
+[2.953s] writing dependency_links to waypoint_runner.egg-info/dependency_links.txt
+[2.954s] writing entry points to waypoint_runner.egg-info/entry_points.txt
+[2.954s] writing requirements to waypoint_runner.egg-info/requires.txt
+[2.954s] writing top-level names to waypoint_runner.egg-info/top_level.txt
+[2.954s] writing manifest file 'waypoint_runner.egg-info/SOURCES.txt'
+[3.041s] reading manifest file 'waypoint_runner.egg-info/SOURCES.txt'
+[3.042s] writing manifest file 'waypoint_runner.egg-info/SOURCES.txt'
+[3.086s] running build_ext
+[3.086s] Creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/waypoint_runner/lib/python3.12/site-packages/waypoint-runner.egg-link (link to .)
+[3.089s] Installing visit_points script to /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/waypoint_runner/lib/waypoint_runner
+[3.089s] 
+[3.089s] Installed /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/waypoint_runner
+[3.090s] running symlink_data
+[3.090s] creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/waypoint_runner/share/ament_index
+[3.090s] creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/waypoint_runner/share/ament_index/resource_index
+[3.090s] creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/waypoint_runner/share/ament_index/resource_index/packages
+[3.090s] symbolically linking /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/waypoint_runner/resource/waypoint_runner -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/waypoint_runner/share/ament_index/resource_index/packages
+[3.090s] symbolically linking /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/build/waypoint_runner/package.xml -> /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/install/waypoint_runner/share/waypoint_runner

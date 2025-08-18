@@ -1,0 +1,17 @@
+[1.915s] Invoking command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/build --no-deps symlink_data
+[2.508s] running develop
+[2.891s] running egg_info
+[2.928s] writing waypoint_runner.egg-info/PKG-INFO
+[2.928s] writing dependency_links to waypoint_runner.egg-info/dependency_links.txt
+[2.929s] writing entry points to waypoint_runner.egg-info/entry_points.txt
+[2.929s] writing requirements to waypoint_runner.egg-info/requires.txt
+[2.929s] writing top-level names to waypoint_runner.egg-info/top_level.txt
+[3.011s] reading manifest file 'waypoint_runner.egg-info/SOURCES.txt'
+[3.012s] writing manifest file 'waypoint_runner.egg-info/SOURCES.txt'
+[3.053s] running build_ext
+[3.053s] Creating /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/lib/python3.12/site-packages/waypoint-runner.egg-link (link to .)
+[3.054s] Installing visit_points script to /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/lib/waypoint_runner
+[3.054s] 
+[3.054s] Installed /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner
+[3.055s] running symlink_data
+[3.129s] Invoked command in '/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/install/waypoint_runner/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/build/waypoint_runner/build --no-deps symlink_data

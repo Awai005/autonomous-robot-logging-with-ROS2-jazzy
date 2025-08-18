@@ -1,0 +1,2 @@
+[console_scripts]
+visit_points = waypoint_runner.visit_points:main
