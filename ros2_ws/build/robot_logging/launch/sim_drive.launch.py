@@ -1,1 +1,0 @@
-/home/tersoo/autonomous-robot-logging-with-ROS2-jazzy/ros2_ws/src/robot_logging/launch/sim_drive.launch.py
