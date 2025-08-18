@@ -22,32 +22,7 @@ The Gazebo plugin for the LiDAR is defined as follows:
 - **Topic**: Publishes laser scans to `/scan`.
 - **Configuration**: Configured with a 270-degree field of view, 1080 samples per scan, and a 10-meter range to match the UST-10LX specifications.
 
-Example snippet in the robot’s SDF:
-```xml
-<sensor name="lidar" type="ray">
-  <pose>0 0 0.1 0 0 0</pose>
-  <ray>
-    <scan>
-      <horizontal>
-        <samples>1080</samples>
-        <resolution>1</resolution>
-        <min_angle>-2.35619</min_angle>
-        <max_angle>2.35619</max_angle>
-      </horizontal>
-    </scan>
-    <range>
-      <min>0.1</min>
-      <max>10.0</max>
-    </range>
-  </ray>
-  <plugin name="lidar_plugin" filename="libgazebo_ros_ray_sensor.so">
-    <ros>
-      <remapping>~/out:=scan</remapping>
-    </ros>
-    <update_rate>40</update_rate>
-  </plugin>
-</sensor>
-```
+
 
 The world file is launched with Gazebo:
 ```bash
@@ -104,75 +79,7 @@ The Navigation2 (Nav2) stack is configured to enable autonomous navigation using
 
 - **Launch Nav2**:
   A custom launch file, `navigation_launch.py`, starts the Nav2 stack with the saved map:
-  ```python
-  from launch import LaunchDescription
-  from launch_ros.actions import Node
-  from ament_index_python.packages import get_package_share_directory
-  import os
 
-  def generate_launch_description():
-      nav2_params = os.path.join(
-          get_package_share_directory('waypoint_runner'),
-          'config', 'nav2_params.yaml'
-      )
-      map_file = os.path.join(
-          get_package_share_directory('waypoint_runner'),
-          'maps', 'my_map.yaml'
-      )
-      return LaunchDescription([
-          Node(
-              package='nav2_map_server',
-              executable='map_server',
-              name='map_server',
-              output='screen',
-              parameters=[{'yaml_filename': map_file, 'use_sim_time': True}]
-          ),
-          Node(
-              package='nav2_amcl',
-              executable='amcl',
-              name='amcl',
-              output='screen',
-              parameters=[nav2_params]
-          ),
-          Node(
-              package='nav2_controller',
-              executable='controller_server',
-              name='controller_server',
-              output='screen',
-              parameters=[nav2_params]
-          ),
-          Node(
-              package='nav2_planner',
-              executable='planner_server',
-              name='planner_server',
-              output='screen',
-              parameters=[nav2_params]
-          ),
-          Node(
-              package='nav2_recoveries',
-              executable='recoveries_server',
-              name='recoveries_server',
-              output='screen',
-              parameters=[nav2_params]
-          ),
-          Node(
-              package='nav2_bt_navigator',
-              executable='bt_navigator',
-              name='bt_navigator',
-              output='screen',
-              parameters=[nav2_params]
-          ),
-          Node(
-              package='nav2_lifecycle_manager',
-              executable='lifecycle_manager',
-              name='lifecycle_manager_navigation',
-              output='screen',
-              parameters=[{'use_sim_time': True, 'autostart': True, 'node_names': [
-                  'map_server', 'amcl', 'controller_server', 'planner_server',
-                  'recoveries_server', 'bt_navigator']}]
-          )
-      ])
-  ```
   Create a `nav2_params.yaml` file in `waypoint_runner/config/` with parameters for AMCL, controller, and planner (e.g., DWB controller for differential drive). Launch Nav2:
   ```bash
   ros2 launch waypoint_runner navigation_launch.py
@@ -197,42 +104,6 @@ To ensure compatibility between Nav2 and the robot’s differential drive, the `
         max_vel_theta: 1.0
         min_vel_x: 0.0
         min_vel_theta: 0.0
-  ```
-  A twist compatibility node (e.g., `twist_ensurer.py`) monitors `/cmd_vel` to ensure commands are within limits:
-  ```python
-  import rclpy
-  from rclpy.node import Node
-  from geometry_msgs.msg import Twist
-
-  class TwistEnsurer(Node):
-      def __init__(self):
-          super().__init__('twist_ensurer')
-          self.sub = self.create_subscription(Twist, '/cmd_vel', self.callback, 10)
-          self.pub = self.create_publisher(Twist, '/cmd_vel_ensured', 10)
-          self.max_linear = 0.5
-          self.max_angular = 1.0
-
-      def callback(self, msg):
-          twist = Twist()
-          twist.linear.x = max(min(msg.linear.x, self.max_linear), -self.max_linear)
-          twist.angular.z = max(min(msg.angular.z, self.max_angular), -self.max_angular)
-          self.pub.publish(twist)
-
-  def main():
-      rclpy.init()
-      node = TwistEnsurer()
-      rclpy.spin(node)
-      node.destroy_node()
-      rclpy.shutdown()
-
-  if __name__ == '__main__':
-      main()
-  ```
-  Update `setup.cfg` to include:
-  ```ini
-  console_scripts =
-      visit_points = waypoint_runner.visit_points:main
-      twist_ensurer = waypoint_runner.twist_ensurer:main
   ```
   Run:
   ```bash
