@@ -1,1 +1,0 @@
-# autonomous-robot-logging-with-ROS2-jazzy
