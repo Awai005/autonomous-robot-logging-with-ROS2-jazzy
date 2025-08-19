@@ -7,18 +7,31 @@ import matplotlib.pyplot as plt
 
 def ns_to_sec(ns): return ns * 1e-9
 
-def read_bag_sqlite(bag_dir):
-    db = Path(bag_dir) / "rosbag2_0.db3"
-    con = sqlite3.connect(db)
-    cur = con.cursor()
-    # map topic name -> id & type
-    topics = {name: (tid, ttype) for tid, name, ttype in cur.execute("SELECT id,name,type FROM topics")}
-    # tables are messages(topic_id, timestamp, data)
-    def rows(topic):
-        if topic not in topics: return []
-        tid = topics[topic][0]
-        return list(cur.execute("SELECT timestamp, data FROM messages WHERE topic_id=? ORDER BY timestamp", (tid,)))
-    return rows, topics, con
+import rosbag2_py
+import rclpy.serialization
+from nav_msgs.msg import Odometry
+
+def read_bag_mcap(bag_path, topic_filter="/odom"):
+    storage_options = rosbag2_py.StorageOptions(uri=bag_path, storage_id="mcap")
+    converter_options = rosbag2_py.ConverterOptions(
+        input_serialization_format="cdr",
+        output_serialization_format="cdr"
+    )
+    reader = rosbag2_py.SequentialReader()
+    reader.open(storage_options, converter_options)
+
+    topic_types = reader.get_all_topics_and_types()
+    type_map = {t.name: t.type for t in topic_types}
+
+    data = []
+    while reader.has_next():
+        topic, raw_data, t = reader.read_next()
+        if topic == topic_filter:
+            msg_type = rclpy.serialization.import_message_from_namespaced_type(type_map[topic])
+            msg = rclpy.serialization.deserialize_message(raw_data, msg_type)
+            data.append((t, msg.pose.pose.position.x, msg.pose.pose.position.y))
+    return data
+
 
 def parse_pose(msg_bytes):
     # rosbag2 stores CDR-serialized ROS 2 messages; easiest: use JSON if you used rosbag2 JSON storage plugin.
