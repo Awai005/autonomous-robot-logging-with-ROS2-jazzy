@@ -24,7 +24,7 @@ class WaypointRunner(Node):
         self.waypoints = [
             (-6.25, 0.00, 0.0),   # A
             ( 0.00, 3.25, 1.57),  # B
-            ( 6.25, 0.00, 3.14),  # C
+            ( 5.25, 3.25, 3.00),  # C
             (0.0, 0.0, 0.0),   # Back to origin
         ]
 

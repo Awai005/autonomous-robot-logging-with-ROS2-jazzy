@@ -24,7 +24,7 @@ class WaypointRunner(Node):
         self.waypoints = [
             (-6.25, 0.00, 0.0),   # A
             ( 0.00, 3.25, 1.57),  # B
-            ( 6.25, 0.00, 3.14),  # C
+            ( 5.25, 3.25, 3.00),  # C
             (0.0, 0.0, 0.0),   # Back to origin
         ]
 
@@ -88,6 +88,16 @@ class WaypointRunner(Node):
         except Exception as e:
             self.get_logger().error(f"Error retrieving transaction: {e}")
 
+    def view_all_transactions(self):
+        latest_block = self.web3.eth.block_number
+        self.get_logger().info(f"Scanning up to block {latest_block}...")
+        for block_num in range(latest_block + 1):
+            block = self.web3.eth.get_block(block_num, full_transactions=True)
+            for tx in block['transactions']:
+                if tx['to'] == self.account:
+                    data = tx['input'].decode('utf-8') if isinstance(tx['input'], bytes) else self.web3.to_text(tx['input'])
+                    self.get_logger().info(f"Transaction {self.web3.to_hex(tx['hash'])}: {data}")
+
     def run(self):
         self.get_logger().info('Waiting for /navigate_to_pose action server...')
         if not self.client.wait_for_server(timeout_sec=30.0):
@@ -117,8 +127,9 @@ class WaypointRunner(Node):
                 tx_hash = self.log_data(position, message)
                 if tx_hash:
                     self.view_transaction(tx_hash)
-                    
+
         self.get_logger().info('All waypoints complete ✅')
+        self.view_all_transactions()
 
 def main():
     rclpy.init()
