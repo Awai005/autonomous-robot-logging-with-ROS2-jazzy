@@ -1,116 +1,76 @@
 #!/usr/bin/env python3
-import os, sqlite3, math, json
-from pathlib import Path
-import argparse
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import PoseWithCovarianceStamped
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
-def ns_to_sec(ns): return ns * 1e-9
+class PosePlotter(Node):
+    def __init__(self):
+        super().__init__('pose_plotter')
+        self.data_rows = []
+        self.subscription = self.create_subscription(
+            PoseWithCovarianceStamped,
+            '/amcl_pose',
+            self.callback,
+            10
+        )
+        self.message_count = 0
+        self.get_logger().info('Listening for /amcl_pose messages...')
 
-import rosbag2_py
-import rclpy.serialization
-from nav_msgs.msg import Odometry
+    def callback(self, msg):
+        t = msg.header.stamp.sec + msg.header.stamp.nanosec * 1e-9
+        x = msg.pose.pose.position.x
+        y = msg.pose.pose.position.y
+        self.data_rows.append({"t": t, "x": x, "y": y})
+        self.message_count += 1
+        if self.message_count % 100 == 0:
+            self.get_logger().info(f'Processed {self.message_count} messages')
+    
+    def save_and_plot(self, output_dir):
+        if not self.data_rows:
+            self.get_logger().info('No data received')
+            return
+        
+        # Save to CSV
+        df = pd.DataFrame(self.data_rows)
+        csv_path = os.path.join(output_dir, 'my_data.csv')
+        df.to_csv(csv_path, index=False)
+        self.get_logger().info(f'Wrote CSV: {csv_path}')
 
-def read_bag_mcap(bag_path, topic_filter="/odom"):
-    storage_options = rosbag2_py.StorageOptions(uri=bag_path, storage_id="mcap")
-    converter_options = rosbag2_py.ConverterOptions(
-        input_serialization_format="cdr",
-        output_serialization_format="cdr"
-    )
-    reader = rosbag2_py.SequentialReader()
-    reader.open(storage_options, converter_options)
-
-    topic_types = reader.get_all_topics_and_types()
-    type_map = {t.name: t.type for t in topic_types}
-
-    data = []
-    while reader.has_next():
-        topic, raw_data, t = reader.read_next()
-        if topic == topic_filter:
-            msg_type = rclpy.serialization.import_message_from_namespaced_type(type_map[topic])
-            msg = rclpy.serialization.deserialize_message(raw_data, msg_type)
-            data.append((t, msg.pose.pose.position.x, msg.pose.pose.position.y))
-    return data
-
-
-def parse_pose(msg_bytes):
-    # rosbag2 stores CDR-serialized ROS 2 messages; easiest: use JSON if you used rosbag2 JSON storage plugin.
-    # If not, fall back to odometry only OR use rosbag2_py/rosbags for full deserialization.
-    # Here we handle odometry (nav_msgs/Odometry) via JSON (if you recorded with --storage sqlite3 and --serialization-format cdr, JSON isn't available).
-    # To keep this script portable, we'll rely on /diff_drive_controller/odom for numeric plots and /checkpoint_log for events.
-    return None
+        # Plot trajectory
+        plt.figure(figsize=(10, 6))
+        plt.plot(df["x"], df["y"], 'bo-', label='Robot Path (amcl_pose)')
+        waypoints = [(-6.25, 0.0), (0.0, 3.25), (6.25, 0.0), (0.0, 0.0)]
+        for i, (wx, wy) in enumerate(waypoints, 1):
+            for _, row in df.iterrows():
+                if abs(row["x"] - wx) < 0.1 and abs(row["y"] - wy) < 0.1:
+                    plt.text(row["x"], row["y"], f'WP{i}\n{row["t"]:.2f}s', fontsize=8, color='red')
+                    break
+        plt.xlabel('X (m)')
+        plt.ylabel('Y (m)')
+        plt.title('Robot Trajectory (from /amcl_pose)')
+        plt.grid(True)
+        plt.axis('equal')
+        plt.legend()
+        trajectory_path = os.path.join(output_dir, 'trajectory_xy.png')
+        plt.savefig(trajectory_path, dpi=150)
+        plt.show()
+        self.get_logger().info(f'Saved plot: {trajectory_path}')
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("bag", help="path to rosbag2 (directory)")
-    ap.add_argument("--out", default="bag_export.csv")
-    args = ap.parse_args()
-
-    rows, topics, con = read_bag_sqlite(args.bag)
-
-    # Try odom (nav_msgs/msg/Odometry) for trajectory & velocities
-    odom_rows = rows("/diff_drive_controller/odom")
-    # checkpoint messages
-    log_rows  = rows("/checkpoint_log")
-
-    if not odom_rows:
-        print("No /diff_drive_controller/odom found. Did you record it?")
-        return
-
-    # We’ll decode CDR with 'rosbags' if present, else do a minimal JSON fallback
-    # Attempt 'rosbags' first:
-    have_rosbags = False
+    rclpy.init()
+    node = PosePlotter()
+    output_dir = os.path.expanduser('~/autonomous-robot-logging-with-ROS2-jazzy/myros2_ws/my_experiment_bag_03')
     try:
-        from rosbags.highlevel import AnyReader
-        have_rosbags = True
-    except Exception:
-        pass
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        node.get_logger().info(f'Processed {node.message_count} messages total')
+        node.save_and_plot(output_dir)
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
 
-    data = []
-    if have_rosbags:
-        with AnyReader([Path(args.bag)]) as reader:
-            conns = {c.topic: c for c in reader.connections}
-            # Odom
-            for conn, ts, raw in reader.messages(conns["/diff_drive_controller/odom"]):
-                msg = reader.deserialize(raw, conn.msgtype)
-                t = ns_to_sec(ts)
-                px = msg.pose.pose.position.x
-                py = msg.pose.pose.position.y
-                vx = msg.twist.twist.linear.x
-                wz = msg.twist.twist.angular.z
-                data.append({"t": t, "x": px, "y": py, "vx": vx, "wz": wz})
-            # Checkpoint logs (std_msgs/String)
-            log_data = []
-            if "/checkpoint_log" in conns:
-                for conn, ts, raw in reader.messages(conns["/checkpoint_log"]):
-                    msg = reader.deserialize(raw, conn.msgtype)
-                    log_data.append({"t": ns_to_sec(ts), "msg": msg.data})
-    else:
-        print("Tip: install 'rosbags' for full decoding:  pip install rosbags --break-system-packages")
-        print("Without it, plotting is limited.")
-
-    if not data:
-        print("No decoded odom data; cannot plot.")
-        return
-
-    df = pd.DataFrame(data)
-    df.to_csv(args.out, index=False)
-    print(f"Wrote CSV: {args.out}")
-
-    # Plots
-    plt.figure()
-    plt.plot(df["x"], df["y"])
-    plt.xlabel("x [m]"); plt.ylabel("y [m]"); plt.title("Robot trajectory (odom)")
-    plt.axis("equal"); plt.grid(True)
-    plt.savefig("trajectory_xy.png", dpi=150)
-    print("Saved: trajectory_xy.png")
-
-    plt.figure()
-    plt.plot(df["t"] - df["t"].iloc[0], df["vx"], label="linear x [m/s]")
-    plt.plot(df["t"] - df["t"].iloc[0], df["wz"], label="angular z [rad/s]")
-    plt.xlabel("time [s]"); plt.title("Velocities vs time"); plt.grid(True); plt.legend()
-    plt.savefig("velocities.png", dpi=150)
-    print("Saved: velocities.png")
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
